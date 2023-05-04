@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Interfaces y mapa de navegación',
+    descripcionCurso:
+      'Este componente formativo brinda los conocimientos en el manejo de interfaces gráficas las cuales permiten que un usuario pueda controlar un aplicativo, por lo cual se trabajaran conceptos de html, css y validación de entornos gráficos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

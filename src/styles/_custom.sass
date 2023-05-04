@@ -10,10 +10,57 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+span
+  &.color-primario
+    color: $color-primario !important
+    font-weight: bold
+  &.color-secundario
+    color: $color-secundario !important
+    font-weight: bold
+  &.color-acento-contenido
+    color: $color-acento-contenido !important
+    font-weight: bold
+  &.color-acento-botones
+    color: $color-acento-botones !important
+    font-weight: bold
+    em
+      color: $color-acento-botones !important
+
+.subtitulo
+  position: relative
+  border-radius: 20px
+  border-right: 7px solid $color-acento-contenido
+  background-color: $color-secundario
+  padding: .7rem
+  display: inline-block
+  h3
+    color: white
+    margin-bottom: 0
+    margin-left: 2rem
+    margin-right: 1rem
+  &::before
+    content: url('../assets/curso/temas/subtitulo.svg')
+    position: absolute
+    top: 0
+    left: 0
+    width: 0
+    height: 0
+    transform: translate(-50%, -50%)
+.mn
+  margin: 0 -3rem
+.bg-card-1
+  background-image: url('../assets/curso/temas/bg-card.svg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+.slyderf-icon
+  .fa-chevron-right:before
+    content: url('../assets/curso/temas/chevron-right.svg') !important
+  .fa-chevron-left:before
+    content: url('../assets/curso/temas/chevron-left.svg') !important
