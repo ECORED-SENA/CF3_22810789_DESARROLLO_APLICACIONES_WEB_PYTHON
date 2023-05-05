@@ -140,11 +140,7 @@ export default {
 </script>
 
 <style lang="sass">
-.bg-tema1
-  background-image: url('../assets/curso/temas/tema1/bg-tema1.svg')
-  background-repeat: no-repeat
-  background-position: center
-  background-size: cover
+
 .linea-edit
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot div,
