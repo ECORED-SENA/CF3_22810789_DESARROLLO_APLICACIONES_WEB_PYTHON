@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 20%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 10%
 
 @keyframes float1
   0%
@@ -79,3 +84,19 @@ span
   background-repeat: no-repeat
   background-position: center
   background-size: cover
+.linea-edit
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot div,
+
+      background-color: #ddeeff !important
+.card-1
+  background-image: url('../assets/curso/temas/tema5/card-1.svg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  transition: background-image .3s ease-in-out
+  &:hover
+    background-image: url('../assets/curso/temas/tema5/card-2.svg')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover

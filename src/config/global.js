@@ -8,11 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
       },
     ],
   },
@@ -32,27 +36,38 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '¿Qué es un mapa de navegación?',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Creación de mapas de navegación',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em>Wireframes</em> en aplicaciones web',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Manejo de lenguaje HTML',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Manejo de hojas de estilo css',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Diseño de formularios y front-end',
         desarrolloContenidos: true,
       },
     ],
@@ -98,31 +113,88 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Manejo de lenguaje HTML',
+      referencia:
+        'FalconMasters. (8 noviembre 2016). Curso Básico de HTML desde 0 - Introducción. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=cqMfPS8jPys',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Manejo de lenguaje HTML',
+      referencia:
+        'Batalas, N., Khan, V. & Markopoulos, P. (2021). Executable HTML. SoftwareX, 14, 100691.',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_586a5a0eb3db4106900f5bcfbc399a7c',
+    },
+    {
+      tema: 'Manejo de hojas de estilo CSS',
+      referencia:
+        'Luján Castillo, J. D. (2016). HTML5, CSS y JavaScript: Crea tu web y apps con el estándar de desarrollo. Bogotá: Madrid: Alfaomega Colombiana RC Libros.',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000082811',
+    },
+    {
+      tema: 'Manejo de hojas de estilo css',
+      referencia:
+        'Torres Remón, M. Á. (2018). Diseño web con HTML5 y CSS3 (Primera edición).',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0001590',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Bootstrap',
+      significado:
+        'Es un <em>framework</em> que permite integrar estilos css desde un repositorio de internet.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Css',
+      significado:
+        'Es un lenguaje que permite la creación de hojas de estilo para ubicar y mejorar el diseño de una página web.',
+    },
+    {
+      termino: 'Formulario',
+      significado:
+        'Es un conjunto de controles que se agrupan para recolectar información a un posible usuario dentro de una página web.',
+    },
+    {
+      termino: '<em>Front-end</em>',
+      significado:
+        'Es el nombre técnico que recibe la parte del sistema que se encarga de la interacción con el usuario final.',
+    },
+    {
+      termino: 'Html',
+      significado:
+        'Lenguaje de etiquetado que permite estructurar una página web.',
+    },
+    {
+      termino: 'Mapa de navegación',
+      significado:
+        'Es un documento que contiene la distribución de los elementos que conforman un sitio web y permite a un usuario realizar una navegación fácil y eficiente.',
+    },
+    {
+      termino: '<em>Wireframe</em>',
+      significado:
+        'Es un boceto previo que se utiliza para negociar con un posible cliente la ubicación y despliegue de componentes en una aplicación web o móvil.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Batalas, N., Khan, V., & Markopoulos, P. (2021). Executable HTML. SoftwareX, 14, 100691.',
+      link: '',
+    },
+    {
+      referencia:
+        'Luján Castillo, J. (2017). HTML5, CSS y JavaScript: Crea tu web y apps con el estándar de desarrollo. Bogotá: Madrid: Alfaomega Colombiana RC Libros.',
+      link: '',
+    },
+    {
+      referencia:
+        'Torres Remón, M. (2018). Diseño web con HTML5 y CSS3 (Primera edición).',
       link: '',
     },
   ],

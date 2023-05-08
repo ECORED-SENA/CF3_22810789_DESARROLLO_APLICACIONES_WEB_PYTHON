@@ -139,11 +139,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-
-.linea-edit
-  .linea-tiempo-d__item--selected
-    .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot div,
-
-      background-color: #ddeeff !important
-</style>
+<style lang="sass"></style>
