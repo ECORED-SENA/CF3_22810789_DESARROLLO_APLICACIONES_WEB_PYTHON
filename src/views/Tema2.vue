@@ -21,35 +21,35 @@
             p Vamos a utilizar un software llamado FlowMapp el cual nos permite crear el mapa de navegación para nuestro sitio web, existen muchas herramientas en las que se puede realizar este proceso, para efectos del ejercicio utilizaremos esta, por lo cual procedemos a registrarnos en la página para poder utilizar la aplicación.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema2/2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/2.png', alt='La imagen muestra un pantallazo de la pagina principal del  sitio web de FlowMapp, el usuario debe registrarse a través del botón llamado "Sign up free".')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Registro
             p Luego de registrarnos nos solicitará seleccionar un plan, en este caso procedemos a seleccionar la opción #[em “Sing up free”] para tener una licencia de uso libre.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema2/3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/3.png', alt='La imagen muestra un pantallazo de las diferentes opciones de planes que están disponibles, se invita al usuario a seleccionar la opción “sing up free”.')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Iniciar sesión
             p Luego procedemos a ingresar nuestros datos en la plataforma colocados en el registro e iniciamos sesión para poder utilizar el servicio del #[em software.]
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema2/4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/4.png', alt='La imagen muestra un pantallazo de la interfaz de inicio de registro en la cual el usuario debe registrar los datos de nombre, email, contraseña.		')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Crear proyecto
             p Luego de ingresar a la página principal presionamos el botón #[em “Create Project”] para empezar a crear nuestro proyecto y elaborar el mapa de navegación.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema2/5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/5.png', alt='La imagen muestra un pantallazo de la interfaz de proyectos del aplicativo web FlowMapp, se invita a crear un nuevo proyecto mediante el botón “create Project”.')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Creando el mapa
             p Nos aparecerán diversas opciones para la elaboración del proyecto, en este caso, procedemos a presionar el botón que dice #[em “Create”] y nos aparecerán varias opciones seleccionamos la que dice #[em “SiteMap”.]
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema2/6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/6.png', alt='La imagen muestra la interfaz de proyectos de FlowMapp donde se invita al usuario a dar clic en el botón “create” el cual despliega un menú de varias opciones dentro de las cuales se debe seleccionar “sitemap”.')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Seleccionamos la plantilla
@@ -59,7 +59,7 @@
               |Es importante tener en cuenta que hasta este punto no hemos definido las opciones del aplicativo web las cuales mencionaremos más adelante.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema2/7.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/7.png', alt='La imagen muestra la interfaz de plantillas de mapas de sitios web de Flowmapp, en la cual se tiene la opción de seleccionar una plantilla o construirla desde cero.')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Configurando el mapa
@@ -69,7 +69,7 @@
               |Haciendo clic en cada uno de los elementos que contendrá el sitio colaremos el diseño que le corresponde de acuerdo con lo presentado en esa imagen, es decir, en cada sesión del programa tenemos una pantalla que se le presenta al usuario y una imagen y opciones de lo que verá y de lo que debe realizar en cada una de ellas.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema2/8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/8.png', alt='La imagen muestra las opciones de plantillas de sitios web de Flowmapp donde el usuario debe seleccionar la opción llamada “news portal proyect”.')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Culminación de este
@@ -79,9 +79,9 @@
               |En la imagen, mostramos a manera de ejemplo cómo quedaría la distribución de un posible mapa de navegación de un sitio web de ejemplo.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema2/9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/9.png', alt='La imagen muestra un ejemplo de distribución de mapa de sitio web creado a partir de una plantilla del aplicativo web Flowmapp.		')
     .row.justify-content-center.mb-5
-      .col-lg-2.mb-lg-0.mb-3.col-6: img(src='@/assets/curso/temas/tema2/10.svg', alt='Texto que describa la imagen')
+      .col-lg-2.mb-lg-0.mb-3.col-6: img(src='@/assets/curso/temas/tema2/10.svg', alt='')
       .col-lg-10 
         p Como pudimos observar en todos los pasos mostrados para la creación del mapa de navegación, es importante siempre establecer la estructura y distribución de los diferentes elementos que se le presentarán al usuario, esto se hace con la finalidad que la información y manejo del sistema sea de la mejor manera posible para el usuario.
         .tarjeta.color-secundario.p-4

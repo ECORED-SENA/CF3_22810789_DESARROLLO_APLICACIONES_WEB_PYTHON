@@ -80,10 +80,16 @@ span
   background-position: initial
   background-size: cover
 .card-icon
-  background-image: url('../assets/curso/temas/card-icon.svg')
-  background-repeat: no-repeat
-  background-position: center
-  background-size: cover
+  border-radius: 10px
+  background-color: #edeafc
+  overflow: hidden
+  position: relative
+  &:before
+    content: url('../assets/curso/temas/icon1.svg')
+    position: absolute
+    top: 0
+    left: -50px
+    transform: translateY(50%)
 .linea-edit
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot div,
@@ -100,3 +106,15 @@ span
     background-repeat: no-repeat
     background-position: center
     background-size: cover
+@media (max-width: $bp-max-lg)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px
+    height: 30px
+    background-size: 10px
+@media (max-width: $bp-max-sm)
+  .slyder-a__bullets
+    transform: scale(.5)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 20px
+    height: 20px
+    background-size: 10px

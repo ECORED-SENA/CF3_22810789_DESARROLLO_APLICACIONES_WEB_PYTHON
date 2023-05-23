@@ -26,7 +26,7 @@
             h5 Figura 1
             br
             span.fst-italic Ejemplo de mapa de navegación
-          img(src='@/assets/curso/temas/tema1/2.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/2.svg', alt='La imagen muestra un ejemplo de un Mapa de Navegación. En el diagrama, se representan las diferentes páginas o secciones de un sitio web o una aplicación. Se visualizan las conexiones y rutas que los usuarios pueden seguir para navegar entre las distintas páginas.')
       p.mb-5(data-aos='fade-right') Como podemos observar en la imagen el mapa de navegación muestra la forma en la que se encuentran distribuidas cada una de las partes del sistema, esto permitirá que la persona que utiliza el sistema pueda realizar la exploración del sitio de una manera adecuada y conociendo cada una de las características del sistema.
       .tarjeta(style="background-color: #c2dcf5 ").p-4.mb-4
         .row.justify-content-center.align-items-center
@@ -91,23 +91,23 @@
           .col-lg-4
             p La más simple, ya que simplemente cada página está vinculada a la anterior, por lo que funciona bien en un sitio de pocas páginas.
           .col-lg-8
-            img(src='@/assets/curso/temas/tema1/12.svg', alt='')
+            img(src='@/assets/curso/temas/tema1/12.svg', alt='La imagen muestra un ejemplo de una estructura lineal. En el diagrama, se puede observar una secuencia de elementos dispuestos en una línea recta, uno después del otro. Cada elemento está conectado directamente al siguiente, sin ramificaciones ni bifurcaciones.')
       .row(numero="2" titulo="Estructura jerárquica")
         .row.justify-content-center.mb-5
           .col-lg-4
             p Esta estructura pone en un rango superior la página de inicio y en un nivel debajo de ella las diferentes categorías y subcategorías del sitio web.  
           .col-lg-8
-            img(src='@/assets/curso/temas/tema1/13.svg', alt='')
+            img(src='@/assets/curso/temas/tema1/13.svg', alt='La imagen muestra un ejemplo de una estructura jerárquica. En el diagrama, se pueden identificar diferentes niveles o capas de elementos organizados de manera jerárquica. En la parte superior se encuentra un elemento principal o raíz, del cual se desprenden ramificaciones o subelementos en niveles inferiores. Cada nivel representa una relación de subordinación, donde los elementos inferiores están vinculados y dependen del elemento superior.')
       .row(numero="3" titulo="Estructura compuesta")
         .row.justify-content-center.mb-5
           .col-lg-4
             p Esta se compone de varios tipos de estructura como la lineal, en donde alguna parte deriva a una estructura jerárquica, lo que permite jugar ampliamente con la organización de diversa información.
           .col-lg-8
-            img(src='@/assets/curso/temas/tema1/14.svg', alt='')
+            img(src='@/assets/curso/temas/tema1/14.svg', alt='La imagen muestra un ejemplo de una estructura de navegación compuesta. En el diagrama, se pueden observar diferentes elementos de navegación agrupados en categorías o secciones principales. Cada sección principal contiene elementos de navegación secundarios, que a su vez pueden contener elementos de navegación adicionales. ')
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
         p Como podemos observar existen varias formas de representación de los mapas de navegación, las cuales pueden ser utilizadas para brindar al usuario de la aplicación una guía práctica de las funciones y procesos que están incluidos en el sistema y de esta manera realizar un correcto uso de la aplicación.
-        .tarjeta.color-secundario.p-3
+        .tarjeta.color-secundario.p-3.mb-lg-0.mb-3
           p.mb-0.text-white Como hemos visto, la importancia de elaborar un correcto prototipo de navegación nos permitirá hacer un uso correcto dentro de un sistema de información.
       .col-lg-2.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/16.svg', alt='') 
         

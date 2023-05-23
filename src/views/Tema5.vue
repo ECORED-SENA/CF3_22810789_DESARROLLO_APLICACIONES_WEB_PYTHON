@@ -7,7 +7,7 @@
         span 5
       h1 Manejo de hojas de estilo CSS     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/1.svg', alt='')
+      .col-lg-1.col-6(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/1.svg', alt='')
       .col-lg-11(data-aos="fade-left")
         p.mb-0 Las hojas de estilo css, son las que permiten organizar un código de estructura de página HTML, el nacimiento de este componente se realiza por la necesidad de poder organizar los elementos que se reflejan en una página web y que están estrechamente relacionados con su distribución y ubicación de componentes. 
     .row.justify-content-center.mb-4
@@ -58,7 +58,7 @@
             h5 Figura 4
             br
             span.fst-italic Creación del archivo
-          img(src='@/assets/curso/temas/tema5/8.png', alt='')
+          img(src='@/assets/curso/temas/tema5/8.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code en el cual se aprecia el panel explorer desplegado, se indica al usuario hacer clic derecho sobre este para desplegar  un menú contextual y seleccionar la opción “new file”.')
       ul.lista-ul--color
         li
           i.fas.fa-square(style="color: #221b6b")
@@ -69,7 +69,7 @@
             h5 Figura 5
             br
             span.fst-italic Creación de archivo CSS
-          img(src='@/assets/curso/temas/tema5/9.png', alt='')
+          img(src='@/assets/curso/temas/tema5/9.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code en la cual después de haber creado un archivo nuevo según las indicaciones del paso anterior, muestra un archivo nuevo llamado “estilo.css”')
       ul.lista-ul--color
         li
           i.fas.fa-square(style="color: #221b6b")
@@ -80,13 +80,13 @@
             h5 Figura 6
             br
             span.fst-italic Referenciación de archivo CSS en documento HTML
-          img(src='@/assets/curso/temas/tema5/10.png', alt='')
+          img(src='@/assets/curso/temas/tema5/10.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code en la cual se muestra el código que relaciona el archivo estilo.css con el documento HTML a través de una etiqueta link')
       p.mb-5(data-aos='fade-right') Veamos a continuación, la aplicación del CSS a través de un video: 
       figure.mb-5
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row.justify-content-center.mb-5
-        .col-lg-2.col-5(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/11.svg', alt='')
+        .col-lg-2.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/11.svg', alt='')
         .col-lg-10(data-aos="fade-left")
           p Con nuestro ejemplo vimos una aplicación sencilla del css, #[span.color-primario debemos tener presente que los componentes a utilizar deben estar debidamente seleccionados por el tipo de información a solicitar al usuario.]
             br
@@ -111,7 +111,7 @@
             p Lo primero que se debe realizar es llamar la url de bootstrap del repositorio de internet, para poder utilizar los estilos que este presenta. La instrucción para realizarlo es la que se puede observar en la siguiente imagen y se debe colocar en la parte superior del documento de HTML.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema5/12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/12.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code en la cual se muestra el código que enlaza el documento HTML con Bootstrap desde el repositorio de internet para poder utilizar los estilos presentes en este.		')
         .row
           .col-md-5.mb-4.mb-md-0
             h5 Revisar el código
@@ -121,16 +121,16 @@
               |Adicional a ello la etiqueta class de los componentes ha cambiado utilizando la “form-control” que es la que controla los elementos en un formulario.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema5/13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/13.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code en la cual se muestra el código de Bootstrap y su respectiva nomenclatura para poder utilizar los estilos definidos.')
         .row
           .col-md-5.mb-4.mb-md-0
             h5 Visualizando el resultado
             p Luego de aplicar estos cambios podemos visualizar el estilo que viene desde el repositorio del framework bootstrap.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema5/14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/14.png', alt='En la imagen se observa el resultado obtenido en el navegador de la implementación de los estilos utilizado con Bootstrap para estilizar un formulario de registro.		')
     .row.justify-content-center.mb-5
-      .col-lg-2.col-5(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/15.svg', alt='')
+      .col-lg-2.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/15.svg', alt='')
       .col-lg-10(data-aos="fade-left")
         p Como se puede observar en las imágenes el estilo de los controles y aspecto de la página ha cambiado, esto debido a que todos los estilos aplicados en la página vienen del repositorio de bootstrap que se encuentra en internet y de esta manera se puede cambiar todos los controles solo llamando la propiedad que se requiere dentro del programa.
         .tarjeta.color-secundario.p-4

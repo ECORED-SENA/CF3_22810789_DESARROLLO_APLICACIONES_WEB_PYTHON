@@ -6,15 +6,15 @@
       .titulo-principal__numero
         span 3
       h1 #[em Wireframes] en aplicaciones #[em web]
-    p.mb-5(data-aos='fade-right') A continuación, abordaremos una técnica de negociación con el cliente, la cual #[span.color-primario permite establecer los parámetros y componentes que tendrán las vistas del sistema. Esto permitirá que el diseño de la aplicación se ajuste a las necesidades y requerimientos establecidos por el cliente.]
-    .bg-tema3.p-5.mn.mb-4.pb-2
+    p.mb-3(data-aos='fade-right') A continuación, abordaremos una técnica de negociación con el cliente, la cual #[span.color-primario permite establecer los parámetros y componentes que tendrán las vistas del sistema. Esto permitirá que el diseño de la aplicación se ajuste a las necesidades y requerimientos establecidos por el cliente.]
+    .bg-tema3.p-5.pt-2.mn.mb-4.pb-2
       .row.justify-content-center.mb-5
-        .col-lg-7.mb-lg-0.mb-3
+        .col-lg-7.mb-lg-0.mb-3.order-2.order-lg-1
           p Uno de los puntos que pueden llegar a ser favorables o no favorables en la construcción de un producto es precisamente lograr realizar una comprensión efectiva de las necesidades del cliente y que estas, se puedan materializar de una forma acorde a lo que el cliente tiene pensado en el producto final.
           .tarjeta.color-secundario.p-4.mb-4
             p.mb-0.text-white Los #[span.color-acento-botones #[em wireframes]] se utilizan para llegar a ese punto de negociación con el cliente donde se construyen prototipos los cuales son validados con el cliente para concretar una aceptación por parte de este y así avanzar en la construcción del producto, pero siempre teniendo como bandera la negociación y aceptación de lo que se está construyendo.
           p A través de los procesos de elaboración de los #[em wireframes] se permite establecer un lenguaje de comunicación sencillo y eficaz con el cliente. Se parte de la premisa de que aquello que no se negocia y se valida tiene una tendencia de dirigirse por un camino oscuro e incierto.
-        .col-lg-5.col-6: img(src='@/assets/curso/temas/tema3/1.png', alt='')    
+        .col-lg-5.col-6.order-1.order-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/1.png', alt='')    
       .tarjeta(style="background-color: #d5cef8 ").p-4.mb-4
         .row.justify-content-center.align-items-center
           .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/2.svg', alt='') 
@@ -29,7 +29,7 @@
       .row.justify-content-center.mb-5
         .col-lg-4.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/3.svg', alt='')
         .col-lg-8 
-          .card-icon.p-4.tarjeta.mb-4
+          .card-icon.p-4.mb-4
             p.mb-0.ms-5 Todos los cambios que se realicen hacen parte del proceso de negociaciónque se establezca, esta técnica y también documentación de proceso permite mostrarle al usuario o cliente un prototipo no funcional en el cual se pueden realizar cambios sin necesidad de tener que codificar la aplicación y los cambios deben ser registrados en un acta donde firma el cliente y el responsable de la construcción del producto para dejar como evidencia la negociación y aceptación de lo establecido en el prototipo.
           p.mb-0(data-aos='fade-right') Gracias a la facilidad que esta herramienta ofrece para la construcción de prototipos y/o bocetos de #[em Front-End] tenemos una alta probabilidad que podemos pasar a una etapa de producción del diseño sin problemas de aceptación al final; ahora bien, sabemos que todo producto de #[em software] sufre cambios y modificaciones a lo largo de su proceso de construcción es indispensable ver desde el punto de aceptación del producto que tan factible es realizar un cambio sin afectar la negociación inicial que se tenía por el producto. De lo contrario, se procederá a realizar un nuevo diseño de #[em wireframes] para validar nuevamente el nuevo diseño o propuesta que requiere el cliente y luego desplegar estos cambios en la etapa de construcción del diseño funcional.
     p.mb-5(data-aos='fade-right') En resumen, podríamos agregar que un wireframes es una representación visual en escala de grises de la estructura y funcionalidad de una sola página web o pantalla de aplicación móvil, la cual permite conocer el diseño y distribución que presenta un software, es importante tener en cuenta que estos son negociados con el cliente y pertenecen a la documentación del proyecto, aunque su función principal es generar bocetos para solicitar por parte del cliente una aceptación. 
@@ -48,7 +48,7 @@
       p.mb-5(data-aos='fade-right') Si quieres empezar a practicar la ejecución del #[em wireframes], existen en internet varias herramientas gratuitas para ayudarte a diseñarlos, a continuación, te dejamos los enlaces de algunas de las más importantes :
       .row.justify-content-center.mb-5
         .col-lg-4.mb-lg-0.mb-3
-          a.anexo.mb-4(href="www.axure.com" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.axure.com" target="_blank")
             .row.justify-content-around.align-items-center
               .col-2
                 
@@ -56,7 +56,7 @@
               .col-lg-10
                   p #[b Axure], Software para crear prototipos y especificaciones para sitios web y aplicaciones.  
         .col-lg-4.mb-lg-0.mb-3
-          a.anexo.mb-4(href="www.mockflow.com" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.mockflow.com" target="_blank")
             .row.justify-content-around.align-items-center
               .col-2
                 
@@ -64,7 +64,7 @@
               .col-lg-10
                   p #[b Mockflow], software de wireframing en su flujo de trabajo de diseño. 
         .col-lg-4
-          a.anexo.mb-4(href="www.gliffy.com" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.gliffy.com" target="_blank")
             .row.justify-content-around.align-items-center
               .col-2
                 
@@ -121,7 +121,7 @@ export default {
   background-position: initial
   background-size: cover
 .bg-tema3-card
-  background-image: url('../assets/curso/temas/bg-tema3-card.svg')
+  background-image: url('../assets/curso/temas/card-icon.svg')
   background-repeat: no-repeat
   background-position: initial
   background-size: cover

@@ -56,7 +56,7 @@
             h5 Figura 2 
             br
             span.fst-italic Creación de la estructura básica archivo HTML
-          img(src='@/assets/curso/temas/tema4/5.png', alt='')
+          img(src='@/assets/curso/temas/tema4/5.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code donde el usuario mediante un atajo puede crear una estructura básica de un archivo HTML.')
       ul.lista-ul--color
         li
           i.fas.fa-square(style="color: #362b9e ")
@@ -67,7 +67,7 @@
             h5 Figura 3 
             br
             span.fst-italic Estructura archivo HTML5
-          img(src='@/assets/curso/temas/tema4/6.png', alt='')
+          img(src='@/assets/curso/temas/tema4/6.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code donde se aprecia un ejemplo de una estructura de archivo HTML 5.')
       p.mb-5(data-aos='fade-right') Veamos a continuación los elementos más comunes para tener en cuenta en el HTML, estos son los más utilizados en el HTML y no solo se muestran, sino que también se indica su origen y/o uso:
       .row.justify-content-center.mb-5
         .col-lg-8(data-aos="fade-right")
@@ -84,23 +84,14 @@
                 br
                 |Lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo, pero que debe ser incluido para que todo funcione correctamente. 
             div(numero="2" titulo="&lt; html &gt")
-              p #[b &lt;html&gt;&lt;/html&gt;]  #[em - elemento] #[b &lt;html&gt;&lt;/html&gt;] 
-                br
-                br
-                |Este elemento encierra todo el contenido de la página entera y a veces, se le conoce como el elemento raíz (root element).
+              p Este elemento encierra todo el contenido de la página entera y a veces, se le conoce como el elemento raíz (root element).
             div(numero="3" titulo="&lt;head &gt")
-              p #[b &lt;head&gt;&lt;/head&gt;]  #[em - elemento] #[b &lt;head&gt;&lt;/head&gt;] 
-                br
-                br
-                |Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. 
+              p Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. 
                 br
                 br
                 |Incluye cosas como palabras clave (keywords), una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc.
             div(numero="4" titulo="&ltmeta charset= &quot;utf-8&quot&gt")
-              p &lt;meta charset= &quot;utf-8&quot;&gt; - &lt;meta&gt;
-                br
-                br
-                |Este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. 
+              p Este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. 
                 br
                 br
                 |Básicamente, puede manejar cualquier contenido de texto que puedas incluir. 
@@ -108,15 +99,9 @@
                 br
                 |No hay razón para no establecerlo, y puede evitar problemas en el futuro.
             div(numero="5" titulo="&lt;title&gt")
-              p p #[b &lt;title&gt;&lt;/title&gt;]  #[em - elemento] #[b &lt;title&gt;&lt;/title&gt;] 
-                br
-                br
-                |Establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
+              p Establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
             div(numero="6" titulo="&lt;body&gt")
-              p p #[b &lt;body&gt;&lt;/body&gt;]  #[em - elemento] #[b &lt;body&gt;&lt;/body&gt;] 
-                br
-                br
-                |Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
+              p Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/7.svg', alt='')
     .cajon-b.color-primario.p-3.mb-5.arriba-derecha
       .row.justify-content-center.align-items-center.mb-5
@@ -125,11 +110,11 @@
             br
             br
             span.color-primario Ahora a continuación, veremos algunas instrucciones para operar de manera adecuada la creación de contenidos de nuestro sitio web:
-        .col-1: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
+        .col-lg-1.col-4: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
     TabsB.color-primario.mb-5
       .bg-p.p-4.py-md-5(titulo="Imágenes" :icono="require('@/assets/curso/temas/tema4/9.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             p Si se desea incrustar una imagen en la página, en una posición determinada. 
               | Se logra a través del atributo src (source), el cual contiene el path (ruta o ubicación) de tu archivo de imagen.
               br
@@ -147,10 +132,10 @@
               br
               br
               | Luego si procedemos a ejecutar nuestro sitio dando doble clic a el archivo index (que es nuestro archivo HTML) para poder visualizar el resultado, como vemos en la imagen.
-          .col-md-6: img(src='@/assets/curso/temas/tema4/10.png', alt='')
+          .col-lg-6: img(src='@/assets/curso/temas/tema4/10.png', alt='')
       .bg-p.p-4.py-md-5(titulo="Encabezados" :icono="require('@/assets/curso/temas/tema4/15.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             p Los elementos de encabezado permiten especificar que ciertas partes del contenido son encabezados, o sub encabezados del contenido. 
               br
               br
@@ -172,10 +157,10 @@
               br
               br
               | La instrucción &lt;h&gt; acompañada del número del 1 al 6 permite aumentar el tamaño e intensidad del marcado del texto siendo 1 la de mayor tamaño y 6 la de menor tamaño e intensidad.
-          .col-md-6: img(src='@/assets/curso/temas/tema4/11.png', alt='')
+          .col-lg-6: img(src='@/assets/curso/temas/tema4/11.png', alt='')
       .bg-p.p-4.py-md-5(titulo="Párrafos" :icono="require('@/assets/curso/temas/tema4/16.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             p Los elementos &lt;p&gt; se utilizan para encerrar párrafos de texto; los usarás frecuentemente para el marcado de contenido de texto regular.
               br
               br
@@ -187,10 +172,10 @@
               br
               | En la imagen lo vemos representado.
 
-          .col-md-6: img(src='@/assets/curso/temas/tema4/12.png', alt='')
+          .col-lg-6: img(src='@/assets/curso/temas/tema4/12.png', alt='')
       .bg-p.p-4.py-md-5(titulo="Listas" :icono="require('@/assets/curso/temas/tema4/17.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             p Mucho del contenido web está dado por listas, así que HTML tiene elementos especiales para ellas. 
               br
               br
@@ -206,10 +191,10 @@
               br
               br
               | En la imagen puedes ver un ejemplo de si quieres transformar parte de un párrafo en una lista y su visualización.
-          .col-md-6: img(src='@/assets/curso/temas/tema4/13.png', alt='')
+          .col-lg-6: img(src='@/assets/curso/temas/tema4/13.png', alt='')
       .bg-p.p-4.py-md-5(titulo="Vínculos" :icono="require('@/assets/curso/temas/tema4/18.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             p Los vínculos o enlaces son muy importantes.
               br
               br
@@ -227,7 +212,7 @@
               | #[b &lt;a href="https://www.mozilla.org/es-AR/about/manifesto/"&gt;Manifesto Mozilla&lt;/a&gt;]
               br
               | En la imagen puedes ver un ejemplo del código y su visualización.
-          .col-md-6: img(src='@/assets/curso/temas/tema4/14.png', alt='')
+          .col-lg-6: img(src='@/assets/curso/temas/tema4/14.png', alt='')
     p.mb-5(data-aos='fade-right') Como podemos observar el lenguaje HTML nos #[span.color-primario permite establecer la estructura de un sitio web y colocar cada uno de sus elementos dentro de la página.]
     .row.justify-content-center.mb-5
       .col-lg-8

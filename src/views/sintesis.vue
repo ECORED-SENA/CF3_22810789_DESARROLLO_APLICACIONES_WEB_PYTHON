@@ -3,8 +3,13 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p Con el tiempo se ha tenido una gran evolución respecto a la manera en cómo un sistema de información se conecta con quién realiza cada operación. 
+      br
+      br
+      |Las interfaces gráficas juegan un papel importante en todo este proceso, ya que estas permiten, desde su conceptualización, aprobación e implementación lograr la creación de cualquier aplicativo de manera simple y sencilla. 
+      br
+      br
+      |A través de nuestro contenido formativo pudimos obtener los conocimientos en el manejo de estas interfaces gráficas que permitirán que los usuarios puedan controlar cualquier aplicativo que desarrollemos, resumiendo lo aprendido de la siguiente manera:
 
     .row.justify-content-center
       .col-lg-10.mb-5
