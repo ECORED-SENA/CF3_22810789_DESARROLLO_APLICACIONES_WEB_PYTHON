@@ -12,13 +12,13 @@
       .row.justify-content-center.align-items-center
         .col-lg-3.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/intro/1.svg', alt='')
         .col-lg-9
-          p Hoy día la industria del software ha tenido una gran evolución respecto a la manera en cómo un sistema de información se conecta con quién realiza cada operación. 
+          p Hoy día la industria del software ha tenido una gran evolución respecto a la manera en cómo un sistema de información se conecta con quién realiza cada operación.
             br
             br
             | Las interfaces gráficas juegan un papel importante en todo este proceso, ya que estas permiten que el usuario que utiliza el sistema pueda realizar cada una de las funciones de manera simple y sencilla.
             br
             br
-            span.color-primario Veamos el siguiente video donde abordaremos información sobre las temáticas a abordar en nuestro componente:
+            span.color-primario El siguiente video presenta las temáticas a abordar en este componente:
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/qqfAuQKd2Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

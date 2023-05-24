@@ -13,8 +13,8 @@
               .row.justify-content-center.align-items-center
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')
                 .col-lg-10
-                  p.text-white El lenguaje HTML o también llamado por sus siglas #[span.color-acento-botones Lenguaje de Marcado de Hipertexto] es una serie de códigos utilizados para crear la estructura de las páginas o sitios web que visitamos a diario en internet, es importante tener en cuenta que este lenguaje lleva muchos años en el mercado y desde siempre ha sido el referente utilizado para realizar este tipo de procesos.  
-          p #[span.color-secundario HTML] es un lenguaje que se ha convertido en el estándar utilizado por todos los navegadores de internet para realizar el proceso de interpretación y visualización de los sitios web a nivel mundial, #[span.color-secundario tiene una presencia e importancia en los procesos de desarrollo y construcción de sitios web], tal que no se puede pensar en el despliegue o construcción de un sitio web actualmente sin su uso e implementación.
+                  p.text-white El lenguaje HTML o también llamado por sus siglas #[span.color-acento-botones Lenguaje de Marcado de Hipertexto] es una serie de códigos utilizados para crear la estructura de las páginas o sitios #[em web]  que visitamos a diario en internet, es importante tener en cuenta que este lenguaje lleva muchos años en el mercado y desde siempre ha sido el referente utilizado para realizar este tipo de procesos.  
+          p #[span.color-secundario HTML] es un lenguaje que se ha convertido en el estándar utilizado por todos los navegadores de internet para realizar el proceso de interpretación y visualización de los sitios #[em web]  a nivel mundial, #[span.color-secundario tiene una presencia e importancia en los procesos de desarrollo y construcción de sitios #[em web] ], tal que no se puede pensar en el despliegue o construcción de un sitio #[em web]  actualmente sin su uso e implementación.
             br
             br
             |A pesar de que han pasado muchos años sigue predominando el uso de este lenguaje para realizar este proceso; ahora bien, este lenguaje tiene algo particular y es la adaptación con diferentes frameworks para mejorar no solo la apariencia de las aplicaciones sino también su adaptabilidad a las necesidades de los usuarios.
@@ -42,7 +42,7 @@
               | Luego de este proceso procedemos a crear una carpeta en una ubicación del computador y la abrimos en nuestro editor de código para luego agregar los archivos en este espacio de trabajo.
             li
               i.fas.fa-square(style="color: #362b9e ")
-              | Seguidamente de este proceso de creación procedemos abrir la carpeta creada en nuestro visual studio code para realizar la creación de los diferentes archivos requeridos en nuestro sitio web.
+              | Seguidamente de este proceso de creación procedemos abrir la carpeta creada en nuestro visual studio code para realizar la creación de los diferentes archivos requeridos en nuestro sitio #[em web] .
             li
               i.fas.fa-square(style="color: #362b9e ")
               | Luego de realizar la subida de la carpeta para trabajar se debe crear el archivo HTML para hacer la codificación de la estructura de la página, hacemos clic en el primer icono de la barra de la carpeta llamado #[em new file] y luego procedemos a colocarle el nombre de acuerdo con la dinámica del proyecto.
@@ -101,7 +101,7 @@
             div(numero="5" titulo="&lt;title&gt")
               p Establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
             div(numero="6" titulo="&lt;body&gt")
-              p Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
+              p Encierra todo el contenido que deseas mostrar a los usuarios #[em web]  que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/7.svg', alt='')
     .cajon-b.color-primario.p-3.mb-5.arriba-derecha
       .row.justify-content-center.align-items-center.mb-5
@@ -109,7 +109,7 @@
           p Estos elementos mencionados anteriormente son las cabeceras principales para realizar la estructura y maquetación de nuestro sitio. 
             br
             br
-            span.color-primario Ahora a continuación, veremos algunas instrucciones para operar de manera adecuada la creación de contenidos de nuestro sitio web:
+            span.color-primario Ahora a continuación, veremos algunas instrucciones para operar de manera adecuada la creación de contenidos de nuestro sitio #[em web] :
         .col-lg-1.col-4: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
     TabsB.color-primario.mb-5
       .bg-p.p-4.py-md-5(titulo="Imágenes" :icono="require('@/assets/curso/temas/tema4/9.svg')")
@@ -128,7 +128,7 @@
               | En la codificación, también se incluye un atributo alt (alternative), el cual contiene un texto que debería describir la imagen y que podría ser accedido por usuarios que no pueden ver la imagen.
               br
               br
-              | Para este caso debemos agregar la imagen que se visualizará en la página en la carpeta que creemos del sitio web, a través de visual studio code.
+              | Para este caso debemos agregar la imagen que se visualizará en la página en la carpeta que creemos del sitio #[em web] , a través de visual studio code.
               br
               br
               | Luego si procedemos a ejecutar nuestro sitio dando doble clic a el archivo index (que es nuestro archivo HTML) para poder visualizar el resultado, como vemos en la imagen.
@@ -176,7 +176,7 @@
       .bg-p.p-4.py-md-5(titulo="Listas" :icono="require('@/assets/curso/temas/tema4/17.svg')")
         .row
           .col-lg-6.mb-4.mb-md-0
-            p Mucho del contenido web está dado por listas, así que HTML tiene elementos especiales para ellas. 
+            p Mucho del contenido #[em web]  está dado por listas, así que HTML tiene elementos especiales para ellas. 
               br
               br
               | El marcado de listas se realiza siempre en al menos dos elementos. Los dos tipos de listas más comunes son las listas ordenadas y las desordenadas:
@@ -207,13 +207,13 @@
               br
               | #[b  &lt;a href=""&gt;Manifesto Mozilla&lt;/a&gt;]
               br
-              | Completa el valor de este atributo con la dirección web con la que quieras conectar al vínculo:
+              | Completa el valor de este atributo con la dirección #[em web]  con la que quieras conectar al vínculo:
               br
               | #[b &lt;a href="https://www.mozilla.org/es-AR/about/manifesto/"&gt;Manifesto Mozilla&lt;/a&gt;]
               br
               | En la imagen puedes ver un ejemplo del código y su visualización.
           .col-lg-6: img(src='@/assets/curso/temas/tema4/14.png', alt='')
-    p.mb-5(data-aos='fade-right') Como podemos observar el lenguaje HTML nos #[span.color-primario permite establecer la estructura de un sitio web y colocar cada uno de sus elementos dentro de la página.]
+    p.mb-5(data-aos='fade-right') Como podemos observar el lenguaje HTML nos #[span.color-primario permite establecer la estructura de un sitio #[em web]  y colocar cada uno de sus elementos dentro de la página.]
     .row.justify-content-center.mb-5
       .col-lg-8
         p Todo este proceso debe ser llevado a cabo en un editor de código, en este caso hemos utilizado visual studio code para realizar el proceso, pero se pueden utilizar otros que están disponibles en el mercado.
@@ -221,8 +221,8 @@
               .row.justify-content-center.align-items-center
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')
                 .col-lg-10
-                  p.text-white En el material complementario, les compartimos un vídeo ilustrativo del uso del lenguaje HTML para que explores mucho más estas líneas de comando que permiten armar un sitio web completo.
-        p La temática de lenguaje HTML es fundamental para el desarrollo de un sitio web, el cual requiere de una cantidad de componentes para su construcción, muchas de las instrucciones en el lenguaje HTML se orientan a la creación de los espacios de trabajo con los cuales interactúa el cliente o usuario final, es importante que tanto el diseño como la construcción la ubicación de los componentes esté debidamente distribuido para no ocasionar problemas al momento de usar el sistema por parte del usuario.
+                  p.text-white En el material complementario, les compartimos un vídeo ilustrativo del uso del lenguaje HTML para que explores mucho más estas líneas de comando que permiten armar un sitio #[em web]  completo.
+        p La temática de lenguaje HTML es fundamental para el desarrollo de un sitio #[em web] , el cual requiere de una cantidad de componentes para su construcción, muchas de las instrucciones en el lenguaje HTML se orientan a la creación de los espacios de trabajo con los cuales interactúa el cliente o usuario final, es importante que tanto el diseño como la construcción la ubicación de los componentes esté debidamente distribuido para no ocasionar problemas al momento de usar el sistema por parte del usuario.
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/19.png', alt='')
 </template>
 

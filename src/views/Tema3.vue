@@ -20,20 +20,20 @@
           .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/2.svg', alt='') 
           .col-lg-11
             p.mb-0 Todos los procesos que se llevan a cabo en la construcción de un producto de software se deben negociar a través de establecer prototipos que son validados por parte del usuario y de esta manera ir avanzando en procesos que garanticen una aceptación válida por parte del cliente.
-      p.mb-5(data-aos='fade-right') A continuación, veremos #[span.color-primario cómo crear o conceptualizar un mockup (Wireframe) de un aplicativo a desarrollar como parte del proceso de negociación-aprobación entre la persona encargada del desarrollo y el cliente:]
+      p.mb-5(data-aos='fade-right') A continuación, veremos #[span.color-primario cómo crear o conceptualizar un #[em mockup (Wireframe)] de un aplicativo a desarrollar como parte del proceso de negociación-aprobación entre la persona encargada del desarrollo y el cliente:]
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/lUk09iM8NUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.mt-3 Video. ¿Cómo realizar un wireframe?
-    p.mb-5(data-aos='fade-right') Como pudimos apreciar a través del video sobre la construcción de un wireframe, el mismo está listo para ser validado por el usuario. 
+    p.mb-5(data-aos='fade-right') Como pudimos apreciar a través del video sobre la construcción de un #[em wireframe], el mismo está listo para ser validado por el usuario. 
     .tarjeta.bg-tema3-card.p-5.mb-4
       .row.justify-content-center.mb-5
         .col-lg-4.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/3.svg', alt='')
         .col-lg-8 
           .card-icon.p-4.mb-4
-            p.mb-0.ms-5 Todos los cambios que se realicen hacen parte del proceso de negociaciónque se establezca, esta técnica y también documentación de proceso permite mostrarle al usuario o cliente un prototipo no funcional en el cual se pueden realizar cambios sin necesidad de tener que codificar la aplicación y los cambios deben ser registrados en un acta donde firma el cliente y el responsable de la construcción del producto para dejar como evidencia la negociación y aceptación de lo establecido en el prototipo.
+            p.mb-0.ms-5 Todos los cambios que se realicen hacen parte del proceso de negociación que se establezca, esta técnica y también documentación de proceso permite mostrarle al usuario o cliente un prototipo no funcional en el cual se pueden realizar cambios sin necesidad de tener que codificar la aplicación y los cambios deben ser registrados en un acta donde firma el cliente y el responsable de la construcción del producto para dejar como evidencia la negociación y aceptación de lo establecido en el prototipo.
           p.mb-0(data-aos='fade-right') Gracias a la facilidad que esta herramienta ofrece para la construcción de prototipos y/o bocetos de #[em Front-End] tenemos una alta probabilidad que podemos pasar a una etapa de producción del diseño sin problemas de aceptación al final; ahora bien, sabemos que todo producto de #[em software] sufre cambios y modificaciones a lo largo de su proceso de construcción es indispensable ver desde el punto de aceptación del producto que tan factible es realizar un cambio sin afectar la negociación inicial que se tenía por el producto. De lo contrario, se procederá a realizar un nuevo diseño de #[em wireframes] para validar nuevamente el nuevo diseño o propuesta que requiere el cliente y luego desplegar estos cambios en la etapa de construcción del diseño funcional.
-    p.mb-5(data-aos='fade-right') En resumen, podríamos agregar que un wireframes es una representación visual en escala de grises de la estructura y funcionalidad de una sola página web o pantalla de aplicación móvil, la cual permite conocer el diseño y distribución que presenta un software, es importante tener en cuenta que estos son negociados con el cliente y pertenecen a la documentación del proyecto, aunque su función principal es generar bocetos para solicitar por parte del cliente una aceptación. 
+    p.mb-5(data-aos='fade-right') En resumen, podríamos agregar que un #[em wireframes] es una representación visual en escala de grises de la estructura y funcionalidad de una sola página #[em web] o pantalla de aplicación móvil, la cual permite conocer el diseño y distribución que presenta un software, es importante tener en cuenta que estos son negociados con el cliente y pertenecen a la documentación del proyecto, aunque su función principal es generar bocetos para solicitar por parte del cliente una aceptación. 
     .bg-tema3-2.p-5.mn.mb-4.pb-2
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -43,19 +43,19 @@
               p.mb-0 A veces el #[em wireframing] puede parecer innecesario, pues creemos que tenemos la “idea final” del proyecto en nuestra cabeza, y sólo necesitamos trasladarla al ordenador.
                 br
                 br
-                | Sin embargo, si incorporas este proceso a tu método de trabajo, te darás cuenta de las múltiples ventajas de los #[em wireframes] para el diseño web: agilizarán los procesos y optimizar tus tiempos, generarán un repertorio gráfico al que podrás recurrir ante nuevos encargos, tendrás una idea clara del rumbo que ha de seguir el proyecto y unificar los criterios sobre estructura y contenido con el resto de tu equipo y, más importante aún, con el cliente.
-          p Gracias al #[em wireframe] te aseguras de que los posibles cambios queden limitados a cuestiones estéticas, lo cual agilizará enormemente el desarrollo del trabajo. 
+                | Sin embargo, si se incorpora este proceso a la metodología de trabajo, se notarán las múltiples ventajas de los #[em wireframes] para el diseño #[em web]: agilizarán los procesos y optimizará los tiempos. Así mismo, generarán un repertorio gráfico al que se puede recurrir ante nuevos encargos y se tendrá una idea clara del rumbo que ha de seguir el proyecto al unificar los criterios sobre una estructura y contenido con el resto de tu equipo y, más importante aún, con el cliente.
+          p Gracias al #[em wireframe] se asegura de que los posibles cambios queden limitados a cuestiones estéticas, lo cual agilizará enormemente el desarrollo del trabajo. 
         .col-lg-5.col-8: img(src='@/assets/curso/temas/tema3/4.png', alt='')
-      p.mb-5(data-aos='fade-right') Si quieres empezar a practicar la ejecución del #[em wireframes], existen en internet varias herramientas gratuitas para ayudarte a diseñarlos, a continuación, te dejamos los enlaces de algunas de las más importantes :
+      p.mb-5(data-aos='fade-right') Si se desea empezar a practicar la ejecución del #[em wireframes], existen en Internet varias herramientas gratuitas que ayudan a diseñarlos; a continuación, se dejan los enlaces de algunas de las más importantes:
       .row.justify-content-center.mb-5
         .col-lg-4.mb-lg-0.mb-3
           a.anexo.mb-4.mb-lg-0(href="https://www.axure.com" target="_blank")
             .row.justify-content-around.align-items-center
-              .col-2
+              .col-3
                 
                   img(src="@/assets/template/icono-link.svg")
               .col-lg-10
-                  p #[b Axure], Software para crear prototipos y especificaciones para sitios web y aplicaciones.  
+                  p #[b Axure], Software para crear prototipos y especificaciones para sitios #[em web] y aplicaciones.  
         .col-lg-4.mb-lg-0.mb-3
           a.anexo.mb-4.mb-lg-0(href="https://www.mockflow.com" target="_blank")
             .row.justify-content-around.align-items-center
@@ -77,7 +77,7 @@
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/5.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Como conclusión, podemos considerar que los #[em #[b wireframes]] hacen parte del aseguramiento de la calidad de un producto de #[em software] y logran un grado de aceptación por parte del usuario de una manera mucho más precisa y eficiente.
+          p.mb-0 Como conclusión, se puede considerar que los #[em wireframes] hacen parte del aseguramiento de la calidad de un producto de #[em software] y logran un grado de aceptación por parte del usuario de una manera mucho más precisa y eficiente.
     .row.justify-content-center.mb-5
       .col-lg-11.mb-lg-0.mb-3
         p.mb-0 Todos los procesos en la construcción de #[em software] deben estar enfocados en cumplir con los requerimientos, tanto técnicos como funcionales del producto final de #[em software] que se trata de construir, por eso es importante siempre tener en cuenta negociar antes de construir el producto para garantizar un alto grado de aceptación y satisfacción del cliente.

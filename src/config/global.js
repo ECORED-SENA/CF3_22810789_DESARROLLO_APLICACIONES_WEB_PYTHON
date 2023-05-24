@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Interfaces y mapa de navegación',
     descripcionCurso:
-      'Este componente formativo brinda los conocimientos en el manejo de interfaces gráficas las cuales permiten que un usuario pueda controlar un aplicativo, por lo cual se trabajaran conceptos de html, css y validación de entornos gráficos.',
+      'Este componente formativo brinda los conocimientos en el manejo de interfaces gráficas las cuales permiten que un usuario pueda controlar un aplicativo; por lo tanto, se trabajarán conceptos de html, css y validación de entornos gráficos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -61,13 +61,13 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Manejo de hojas de estilo css',
+        titulo: 'Manejo de hojas de estilo CSS',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Diseño de formularios y front-end',
+        titulo: 'Diseño de formularios y <em>front-end</em>',
         desarrolloContenidos: true,
       },
     ],
