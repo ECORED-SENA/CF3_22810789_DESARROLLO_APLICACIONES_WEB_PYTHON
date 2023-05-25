@@ -115,22 +115,22 @@ export default {
     {
       tema: 'Manejo de lenguaje HTML',
       referencia:
-        'FalconMasters. (8 noviembre 2016). Curso Básico de HTML desde 0 - Introducción. [Video]. YouTube.',
+        'FalconMasters. (8 noviembre 2016). <em>Curso Básico de HTML desde 0 - Introducción.</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=cqMfPS8jPys',
     },
     {
       tema: 'Manejo de lenguaje HTML',
       referencia:
-        'Batalas, N., Khan, V. & Markopoulos, P. (2021). Executable HTML. SoftwareX, 14, 100691.',
+        'Batalas, N., Khan, V. & Markopoulos, P. (2021). <em>Executable HTML. SoftwareX</em>, 14, 100691.',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_586a5a0eb3db4106900f5bcfbc399a7c',
     },
     {
-      tema: 'Manejo de hojas de estilo CSS',
+      tema: 'Manejo de lenguaje HTML<br>Manejo de hojas de estilo CSS',
       referencia:
-        'Luján Castillo, J. D. (2016). HTML5, CSS y JavaScript: Crea tu web y apps con el estándar de desarrollo. Bogotá: Madrid: Alfaomega Colombiana RC Libros.',
+        'Luján Castillo, J. D. (2016). <em>HTML5, CSS y JavaScript: Crea tu web y apps con el estándar de desarrollo.</em> Bogotá: Madrid: Alfaomega Colombiana RC Libros.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000082811',
@@ -138,7 +138,7 @@ export default {
     {
       tema: 'Manejo de hojas de estilo css',
       referencia:
-        'Torres Remón, M. Á. (2018). Diseño web con HTML5 y CSS3 (Primera edición).',
+        'Torres Remón, M. Á. (2018). <em>Diseño web con HTML5 y CSS3</em> (Primera edición).',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_ebooks0001590',
@@ -151,14 +151,14 @@ export default {
         'Es un <em>framework</em> que permite integrar estilos css desde un repositorio de internet.',
     },
     {
-      termino: 'Css',
+      termino: 'CSS',
       significado:
-        'Es un lenguaje que permite la creación de hojas de estilo para ubicar y mejorar el diseño de una página web.',
+        'Es un lenguaje que permite la creación de hojas de estilo para ubicar y mejorar el diseño de una página <em>web.</em>',
     },
     {
       termino: 'Formulario',
       significado:
-        'Es un conjunto de controles que se agrupan para recolectar información a un posible usuario dentro de una página web.',
+        'Es un conjunto de controles que se agrupan para recolectar información a un posible usuario dentro de una página <em>web.</em>',
     },
     {
       termino: '<em>Front-end</em>',
@@ -168,33 +168,33 @@ export default {
     {
       termino: 'Html',
       significado:
-        'Lenguaje de etiquetado que permite estructurar una página web.',
+        'Lenguaje de etiquetado que permite estructurar una página <em>web.</em>',
     },
     {
       termino: 'Mapa de navegación',
       significado:
-        'Es un documento que contiene la distribución de los elementos que conforman un sitio web y permite a un usuario realizar una navegación fácil y eficiente.',
+        'Es un documento que contiene la distribución de los elementos que conforman un sitio <em>web</em> y permite a un usuario realizar una navegación fácil y eficiente.',
     },
     {
       termino: '<em>Wireframe</em>',
       significado:
-        'Es un boceto previo que se utiliza para negociar con un posible cliente la ubicación y despliegue de componentes en una aplicación web o móvil.',
+        'Es un boceto previo que se utiliza para negociar con un posible cliente la ubicación y despliegue de componentes en una aplicación <em>web</em> o móvil.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Batalas, N., Khan, V., & Markopoulos, P. (2021). Executable HTML. SoftwareX, 14, 100691.',
+        'Batalas, N., Khan, V., & Markopoulos, P. (2021). <em>Executable HTML</em>. SoftwareX, 14, 100691.',
       link: '',
     },
     {
       referencia:
-        'Luján Castillo, J. (2017). HTML5, CSS y JavaScript: Crea tu web y apps con el estándar de desarrollo. Bogotá: Madrid: Alfaomega Colombiana RC Libros.',
+        'Luján Castillo, J. (2017). <em>HTML5, CSS y JavaScript: Crea tu web y apps con el estándar de desarrollo.</em> Bogotá: Madrid: Alfaomega Colombiana RC Libros.',
       link: '',
     },
     {
       referencia:
-        'Torres Remón, M. (2018). Diseño web con HTML5 y CSS3 (Primera edición).',
+        'Torres Remón, M. (2018). <em>Diseño web con HTML5 y CSS3</em> (Primera edición).',
       link: '',
     },
   ],
@@ -208,9 +208,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Rafael Neftalí Lizcano Reyes ',
+          cargo: 'Responsable del equipo ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
       ],
     },
@@ -218,9 +219,30 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Dulfran Antonio Montaño Montañ',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Zvi Daniel Grosman Landáez',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesor Metodológico',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo desarrollo curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -228,19 +250,58 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabian Zarate',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Emilsen Bautista ',
+          cargo: 'Actividad didáctica',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Zuleidy María Ruíz Torres ',
+          cargo: 'Validación audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: ' Locución ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Ilustración ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Mary Jeans Palacio Camacho ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta ',
+          cargo: 'Validación Contenido ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
       ],
     },
@@ -248,12 +309,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: '',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro: 'Nombre centro formación',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: '',
           cargo: 'Validación de contenidos accesibles',
           centro: 'Nombre centro formación',
         },

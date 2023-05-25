@@ -3,13 +3,13 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el tiempo se ha tenido una gran evolución respecto a la manera en cómo un sistema de información se conecta con quién realiza cada operación. 
+    p Con el tiempo se ha tenido una gran evolución respecto a la manera en cómo un sistema de información se conecta con quién realiza cada operación.
       br
       br
-      |Las interfaces gráficas juegan un papel importante en todo este proceso, ya que estas permiten, desde su conceptualización, aprobación e implementación lograr la creación de cualquier aplicativo de manera simple y sencilla. 
+      |Las interfaces gráficas juegan un papel importante en todo este proceso, ya que estas permiten, desde su conceptualización, aprobación e implementación, lograr la creación de cualquier aplicativo de manera simple y sencilla.
       br
       br
-      |A través de nuestro contenido formativo pudimos obtener los conocimientos en el manejo de estas interfaces gráficas que permitirán que los usuarios puedan controlar cualquier aplicativo que desarrollemos, resumiendo lo aprendido de la siguiente manera:
+      |A través de este contenido formativo se pudo obtener los conocimientos en el manejo de estas interfaces gráficas que permitirán que los usuarios puedan controlar cualquier aplicativo que se desarrolle, resumiendo lo aprendido de la siguiente manera:
 
     .row.justify-content-center
       .col-lg-10.mb-5

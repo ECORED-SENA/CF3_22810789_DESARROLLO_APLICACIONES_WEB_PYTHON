@@ -13,42 +13,42 @@
               .row.justify-content-center.align-items-center
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')
                 .col-lg-10
-                  p.text-white El lenguaje HTML o también llamado por sus siglas #[span.color-acento-botones Lenguaje de Marcado de Hipertexto] es una serie de códigos utilizados para crear la estructura de las páginas o sitios #[em web]  que visitamos a diario en internet, es importante tener en cuenta que este lenguaje lleva muchos años en el mercado y desde siempre ha sido el referente utilizado para realizar este tipo de procesos.  
-          p #[span.color-secundario HTML] es un lenguaje que se ha convertido en el estándar utilizado por todos los navegadores de internet para realizar el proceso de interpretación y visualización de los sitios #[em web]  a nivel mundial, #[span.color-secundario tiene una presencia e importancia en los procesos de desarrollo y construcción de sitios #[em web] ], tal que no se puede pensar en el despliegue o construcción de un sitio #[em web]  actualmente sin su uso e implementación.
+                  p.text-white El lenguaje HTML o también llamado por sus siglas #[span.color-acento-botones Lenguaje de Marcado de Hipertexto] es una serie de códigos utilizados para crear la estructura de las páginas o sitios web que se visitan a diario en Internet. Es importante tener en cuenta que este lenguaje lleva muchos años en el mercado y desde siempre ha sido el referente utilizado para realizar este tipo de procesos.
+          p #[span.color-secundario HTML] es un lenguaje que se ha convertido en el estándar utilizado por todos los navegadores de Internet para realizar el proceso de interpretación y visualización de los sitios web a nivel mundial. #[span.color-primario Tiene una presencia e importancia en los procesos de desarrollo y construcción que no se puede pensar en su despliegue sin su uso e implementación, a pesar de que han pasado muchos años.]
             br
             br
-            |A pesar de que han pasado muchos años sigue predominando el uso de este lenguaje para realizar este proceso; ahora bien, este lenguaje tiene algo particular y es la adaptación con diferentes frameworks para mejorar no solo la apariencia de las aplicaciones sino también su adaptabilidad a las necesidades de los usuarios.
+            |A pesar de que han pasado muchos años sigue predominando el uso de este lenguaje para realizar este proceso; ahora bien, este lenguaje tiene algo particular y es la adaptación con diferentes #[em frameworks] para mejorar no solo la apariencia de las aplicaciones sino también su adaptabilidad a las necesidades de los usuarios.
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/1.png', alt='')
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
         .bloque-texto-g__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema4/2.jpg')})`}"
         )
         .bloque-texto-g__texto.p-5
-          p.mb-0 HTML no es un lenguaje de programación, es un lenguaje de marcado que define la estructura de tu contenido. Consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. 
-      p.mb-5(data-aos='fade-right') #[span.color-primario Las etiquetas de encierre pueden hacer de una palabra o una imagen, un hipervínculo a otro sitio, se pueden cambiar palabras en cursiva, agrandar o achicar la letra, etc.]
+          p.mb-0 HTML no es un lenguaje de programación, es un lenguaje de marcado que define la estructura del contenido. Consiste en una serie de elementos que se usan para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.
+      p.mb-5(data-aos='fade-right') #[span.color-primario Las etiquetas de encierre pueden hacer de una palabra o una imagen, un hipervínculo a otro sitio, pueden cambiar palabras en cursiva, agrandar o achicar la letra, etc.]
       .row.justify-content-center.mb-3
         .col-lg-8(data-aos="fade-right").mb-lg-0.mb-3
           .tarjeta.p-4.mb-3(style="background-color:#c2dcf5 ")
               .row.justify-content-center.align-items-center
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/tema4/3.svg', alt='')
                 .col-lg-10
-                  p Para iniciar el trabajo con nuestras etiquetas HTML debemos dirigirnos a un editor de código visual (en nuestro caso visual studio code), se debe tener en cuenta que esta vez trabajaremos con archivos con extensión HTML y que esto requiere un trabajo diferente al que se ha trabajado hasta el momento, como vemos a continuación: 
+                  p Para iniciar el trabajo de etiquetas HTML es necesario dirigirse a un editor de código visual, en este caso se trabajará con, visual studio code. Ahora se siguen los siguientes pasos:
           ul.lista-ul--color
-            li
+            li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
-              | Para realizar este proceso primeramente ejecutaremos nuestra aplicación de visual studio code.
-            li
+              p.mb-0 Lo primero es ejecutar la aplicación visual studio code.
+            li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
-              | Luego de este proceso procedemos a crear una carpeta en una ubicación del computador y la abrimos en nuestro editor de código para luego agregar los archivos en este espacio de trabajo.
-            li
+              p.mb-0 Luego, se procede a crear una carpeta en una ubicación del computador y se abre en el editor de código para después agregar los archivos en este espacio de trabajo.
+            li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
-              | Seguidamente de este proceso de creación procedemos abrir la carpeta creada en nuestro visual studio code para realizar la creación de los diferentes archivos requeridos en nuestro sitio #[em web] .
-            li
+              p.mb-0 Seguidamente, se abre la carpeta creada en visual studio code para realizar la creación de los diferentes archivos requeridos en el sitio #[em web.]
+            li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
-              | Luego de realizar la subida de la carpeta para trabajar se debe crear el archivo HTML para hacer la codificación de la estructura de la página, hacemos clic en el primer icono de la barra de la carpeta llamado #[em new file] y luego procedemos a colocarle el nombre de acuerdo con la dinámica del proyecto.
-            li
+              p.mb-0 Luego de realizar la subida de la carpeta para trabajar, se debe crear el archivo HTML para hacer la codificación de la estructura de la página. Se hace clic en el primer ícono de la barra de la carpeta llamado #[em new file] y, luego, se procede a colocarle el nombre de acuerdo con la dinámica del proyecto.
+            li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
-              | Una vez que ya hemos creado el archivo procedemos a colocarle la estructura básica de todo archivo HTML presionando la tecla Ctrl + espacio y luego seleccionando la opción “HTML sample” #[span.color-primario como se observa en la figura:]
+              p.mb-0 Una vez creado el archivo, se coloca la estructura básica de todo archivo HTML presionando la tecla Ctrl + espacio y luego seleccionando la opción “HTML #[em sample]” #[span.color-primario como se observa en la imagen:]
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/4.png', alt='')
       .row.justify-content-center.mb-5
         .col-lg-8
@@ -58,9 +58,9 @@
             span.fst-italic Creación de la estructura básica archivo HTML
           img(src='@/assets/curso/temas/tema4/5.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code donde el usuario mediante un atajo puede crear una estructura básica de un archivo HTML.')
       ul.lista-ul--color
-        li
+        li.d-flex
           i.fas.fa-square(style="color: #362b9e ")
-          | Luego de realizar las instrucciones expuestas, nos generará el siguiente código para la generación de nuestra estructura de archivo HTML.
+          p.mb-0 Luego de realizar las instrucciones expuestas, se generará el siguiente código para el desarrollo de la estructura de archivo HTML.
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -76,47 +76,31 @@
               p #[b  &lt; !DOCTYPE html &gt;]  - el tipo de documento
                 br
                 br
-                |Es un preámbulo requerido. 
-                br
-                br
-                |Anteriormente, cuando HTML era joven (cerca de 1991-1992), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno.
-                br
-                br
-                |Lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo, pero que debe ser incluido para que todo funcione correctamente. 
+                |Es un preámbulo requerido. Anteriormente, cuando HTML era joven (cerca de 1991-1992), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno. Lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo, pero que debe ser incluido para que todo funcione correctamente.
             div(numero="2" titulo="&lt; html &gt")
-              p Este elemento encierra todo el contenido de la página entera y a veces, se le conoce como el elemento raíz (root element).
+              p Este elemento encierra todo el contenido de la página entera y a veces, se le conoce como el elemento raíz (#[em root element]).
             div(numero="3" titulo="&lt;head &gt")
-              p Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. 
-                br
-                br
-                |Incluye cosas como palabras clave (keywords), una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc.
+              p Este elemento actúa como un contenedor de todo aquello que se quiere incluir en la página HTML que no es contenido visible por los visitantes. Incluye cosas como palabras clave #[em (keywords)], una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc
             div(numero="4" titulo="&ltmeta charset= &quot;utf-8&quot&gt")
-              p Este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. 
-                br
-                br
-                |Básicamente, puede manejar cualquier contenido de texto que puedas incluir. 
-                br
-                br
-                |No hay razón para no establecerlo, y puede evitar problemas en el futuro.
+              p Este elemento establece el juego de caracteres que el documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que se pueda incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.
             div(numero="5" titulo="&lt;title&gt")
-              p Establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
+              p Establece el título de la página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la esta es cargada. Se usa para describir la página cuando es añadida a los marcadores o como favorita.
             div(numero="6" titulo="&lt;body&gt")
-              p Encierra todo el contenido que deseas mostrar a los usuarios #[em web]  que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
+              p Encierra todo el contenido que se desea mostrar a los usuarios #[em web] que visiten la página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/7.svg', alt='')
     .cajon-b.color-primario.p-3.mb-5.arriba-derecha
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-11
-          p Estos elementos mencionados anteriormente son las cabeceras principales para realizar la estructura y maquetación de nuestro sitio. 
+          p Estos elementos, mencionados anteriormente, son las cabeceras principales para realizar la estructura y maquetación de un sitio. 
             br
             br
-            span.color-primario Ahora a continuación, veremos algunas instrucciones para operar de manera adecuada la creación de contenidos de nuestro sitio #[em web] :
+            span.color-primario Ahora a continuación, se explican algunas instrucciones para operar de manera adecuada la creación de contenidos del sitio #[em web]:
         .col-lg-1.col-4: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
     TabsB.color-primario.mb-5
       .bg-p.p-4.py-md-5(titulo="Imágenes" :icono="require('@/assets/curso/temas/tema4/9.svg')")
         .row
           .col-lg-6.mb-4.mb-md-0
-            p Si se desea incrustar una imagen en la página, en una posición determinada. 
-              | Se logra a través del atributo src (source), el cual contiene el path (ruta o ubicación) de tu archivo de imagen.
+            p Si se desea incrustar una imagen en la página, en una posición determinada, se logra a través del atributo src (source), el cual contiene el path (ruta o ubicación) de tu archivo de imagen.
               br
               br
               | #[b Ejemplo ]
@@ -128,10 +112,10 @@
               | En la codificación, también se incluye un atributo alt (alternative), el cual contiene un texto que debería describir la imagen y que podría ser accedido por usuarios que no pueden ver la imagen.
               br
               br
-              | Para este caso debemos agregar la imagen que se visualizará en la página en la carpeta que creemos del sitio #[em web] , a través de visual studio code.
+              | Para este caso se debe agregar la imagen que se visualizará en la página en la carpeta quese creó del sitio #[em web], a través de visual studio code.
               br
               br
-              | Luego si procedemos a ejecutar nuestro sitio dando doble clic a el archivo index (que es nuestro archivo HTML) para poder visualizar el resultado, como vemos en la imagen.
+              | Luego sí se procede a ejecutar el sitio dando doble clic al archivo index (que es el archivo HTML) para poder visualizar el resultado, como se ve en la imagen.
           .col-lg-6: img(src='@/assets/curso/temas/tema4/10.png', alt='')
       .bg-p.p-4.py-md-5(titulo="Encabezados" :icono="require('@/assets/curso/temas/tema4/15.svg')")
         .row
@@ -139,7 +123,7 @@
             p Los elementos de encabezado permiten especificar que ciertas partes del contenido son encabezados, o sub encabezados del contenido. 
               br
               br
-              | De la misma forma que un libro tiene un título principal y que a su vez puede tener títulos por cada capítulo individual, y subtítulos dentro de ellos, un documento HTML puede tenerlos también. 
+              | De la misma forma que un libro tiene un título principal y que a su vez puede tener títulos por cada capítulo individual, y subtítulos dentro de ellos, un documento HTML puede tenerlos también.
               br
               br
               | HTML posee seis niveles de encabezados, Del &lt;h1&gt; al &lt;h6&gt; (en-US), aunque probablemente solo llegues a usar 3-4 como mucho:
@@ -161,7 +145,7 @@
       .bg-p.p-4.py-md-5(titulo="Párrafos" :icono="require('@/assets/curso/temas/tema4/16.svg')")
         .row
           .col-lg-6.mb-4.mb-md-0
-            p Los elementos &lt;p&gt; se utilizan para encerrar párrafos de texto; los usarás frecuentemente para el marcado de contenido de texto regular.
+            p Los elementos &lt;p&gt; se utilizan para encerrar párrafos de texto; se usarán frecuentemente para el marcado de contenido de texto regular.
               br
               br
               | #[b Ejemplo: ]
@@ -170,7 +154,7 @@
               | #[b &lt;p&gt;Este es un simple parrafo&lt;/p&gt;] 
               br
               br
-              | En la imagen lo vemos representado.
+              | En la imagen se ve representado.
 
           .col-lg-6: img(src='@/assets/curso/temas/tema4/12.png', alt='')
       .bg-p.p-4.py-md-5(titulo="Listas" :icono="require('@/assets/curso/temas/tema4/17.svg')")
@@ -213,16 +197,16 @@
               br
               | En la imagen puedes ver un ejemplo del código y su visualización.
           .col-lg-6: img(src='@/assets/curso/temas/tema4/14.png', alt='')
-    p.mb-5(data-aos='fade-right') Como podemos observar el lenguaje HTML nos #[span.color-primario permite establecer la estructura de un sitio #[em web]  y colocar cada uno de sus elementos dentro de la página.]
+    p.mb-5(data-aos='fade-right') Como se pudo observar el lenguaje HTML #[span.color-primario permite establecer la estructura de un sitio web y colocar cada uno de sus elementos dentro de la página.]
     .row.justify-content-center.mb-5
       .col-lg-8
-        p Todo este proceso debe ser llevado a cabo en un editor de código, en este caso hemos utilizado visual studio code para realizar el proceso, pero se pueden utilizar otros que están disponibles en el mercado.
+        p Todo este proceso debe ser llevado a cabo en un editor de código; en este caso, se ha utilizado visual studio code para realizar el proceso, pero se pueden utilizar otros que estén disponibles en el mercado
         .tarjeta.color-secundario.p-4.mb-3
               .row.justify-content-center.align-items-center
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')
                 .col-lg-10
-                  p.text-white En el material complementario, les compartimos un vídeo ilustrativo del uso del lenguaje HTML para que explores mucho más estas líneas de comando que permiten armar un sitio #[em web]  completo.
-        p La temática de lenguaje HTML es fundamental para el desarrollo de un sitio #[em web] , el cual requiere de una cantidad de componentes para su construcción, muchas de las instrucciones en el lenguaje HTML se orientan a la creación de los espacios de trabajo con los cuales interactúa el cliente o usuario final, es importante que tanto el diseño como la construcción la ubicación de los componentes esté debidamente distribuido para no ocasionar problemas al momento de usar el sistema por parte del usuario.
+                  p.text-white En el material complementario, se comparte un vídeo ilustrativo del uso del lenguaje HTML para explorar mucho más estas líneas de comando que permiten armar un sitio #[em web] completo.
+        p La temática de lenguaje HTML es fundamental para el desarrollo de un sitio #[em web], el cual requiere de una cantidad de componentes para su construcción. Muchas de las instrucciones en el lenguaje HTML se orientan a la creación de los espacios de trabajo con los cuales interactúa el cliente o usuario final. Es importante que tanto en el diseño como en la construcción, la ubicación de los componentes esté debidamente distribuida para no ocasionar problemas al momento de usar el sistema por parte del usuario.
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/19.png', alt='')
 </template>
 
