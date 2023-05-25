@@ -90,12 +90,12 @@
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/7.svg', alt='')
     .cajon-b.color-primario.p-3.mb-5.arriba-derecha
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-11
+        .col-lg-11.order-lg-1.order-2
           p Estos elementos, mencionados anteriormente, son las cabeceras principales para realizar la estructura y maquetación de un sitio. 
             br
             br
             span.color-primario Ahora a continuación, se explican algunas instrucciones para operar de manera adecuada la creación de contenidos del sitio #[em web]:
-        .col-lg-1.col-4: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
+        .col-lg-1.col-4.order-1.order-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
     TabsB.color-primario.mb-5
       .bg-p.p-4.py-md-5(titulo="Imágenes" :icono="require('@/assets/curso/temas/tema4/9.svg')")
         .row

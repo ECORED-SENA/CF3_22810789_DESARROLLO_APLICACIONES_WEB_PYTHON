@@ -49,28 +49,28 @@
       p.mb-5(data-aos='fade-right') Si se desea empezar a practicar la ejecución del #[em wireframes], existen en Internet varias herramientas gratuitas que ayudan a diseñarlos; a continuación, se dejan los enlaces de algunas de las más importantes:
       .row.justify-content-center.mb-5
         .col-lg-4.mb-lg-0.mb-3
-          a.anexo.mb-4.mb-lg-0(href="https://www.axure.com" target="_blank")
+          a.anexo.mb-lg-0(href="https://www.axure.com" target="_blank").h-100.m-auto
             .row.justify-content-around.align-items-center
-              .col-3
+              .col-3.mb-lg-0.mb-3
                 
                   img(src="@/assets/template/icono-link.svg")
-              .col-lg-10
+              .col-md-9
                   p #[b Axure], Software para crear prototipos y especificaciones para sitios #[em web] y aplicaciones.  
         .col-lg-4.mb-lg-0.mb-3
-          a.anexo.mb-4.mb-lg-0(href="https://www.mockflow.com" target="_blank")
+          a.anexo.mb-lg-0(href="https://www.mockflow.com" target="_blank").h-100.m-auto
             .row.justify-content-around.align-items-center
-              .col-2
+              .col-3.mb-lg-0.mb-3
                 
                   img(src="@/assets/template/icono-link.svg")
-              .col-lg-10
+              .col-md-9
                   p #[b Mockflow], software de wireframing en su flujo de trabajo de diseño. 
         .col-lg-4
-          a.anexo.mb-4.mb-lg-0(href="https://www.gliffy.com" target="_blank")
+          a.anexo.mb-lg-0(href="https://www.gliffy.com" target="_blank").h-100.m-auto
             .row.justify-content-around.align-items-center
-              .col-2
+              .col-3.mb-lg-0.mb-3
                 
                   img(src="@/assets/template/icono-link.svg")
-              .col-lg-10
+              .col-md-9
                   p #[b Gliffy], software para crear diagramas UML, diagramas de flujo y otros tipos de diagramas en línea. 
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
