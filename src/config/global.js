@@ -308,7 +308,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Luis Gabriel Urueta',
+          nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
