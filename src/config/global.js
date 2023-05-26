@@ -208,7 +208,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Claudia Patricia Aristizábal',
           cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
