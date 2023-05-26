@@ -224,7 +224,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Dulfran Antonio Montaño Montañ',
+          nombre: 'Dulfrán Antonio Montaño Montañ',
           cargo: 'Experto Temático',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
@@ -238,12 +238,7 @@ export default {
           cargo: 'Asesor Metodológico',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo desarrollo curricular',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
+
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
           cargo: 'Corrector de estilo',
