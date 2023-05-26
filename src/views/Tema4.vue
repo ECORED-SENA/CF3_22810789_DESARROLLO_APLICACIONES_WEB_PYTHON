@@ -32,17 +32,17 @@
               .row.justify-content-center.align-items-center
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/tema4/3.svg', alt='')
                 .col-lg-10
-                  p Para iniciar el trabajo de etiquetas HTML es necesario dirigirse a un editor de código visual, en este caso se trabajará con, visual studio code. Ahora se siguen los siguientes pasos:
+                  p Para iniciar el trabajo de etiquetas HTML es necesario dirigirse a un editor de código visual, en este caso se trabajará con, Visual Studio Code. Ahora se siguen los siguientes pasos:
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
-              p.mb-0 Lo primero es ejecutar la aplicación visual studio code.
+              p.mb-0 Lo primero es ejecutar la aplicación Visual Studio Code.
             li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
               p.mb-0 Luego, se procede a crear una carpeta en una ubicación del computador y se abre en el editor de código para después agregar los archivos en este espacio de trabajo.
             li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
-              p.mb-0 Seguidamente, se abre la carpeta creada en visual studio code para realizar la creación de los diferentes archivos requeridos en el sitio #[em web.]
+              p.mb-0 Seguidamente, se abre la carpeta creada en Visual Studio Code para realizar la creación de los diferentes archivos requeridos en el sitio #[em web.]
             li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
               p.mb-0 Luego de realizar la subida de la carpeta para trabajar, se debe crear el archivo HTML para hacer la codificación de la estructura de la página. Se hace clic en el primer ícono de la barra de la carpeta llamado #[em new file] y, luego, se procede a colocarle el nombre de acuerdo con la dinámica del proyecto.
@@ -68,7 +68,7 @@
             br
             span.fst-italic Estructura archivo HTML5
           img(src='@/assets/curso/temas/tema4/6.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code donde se aprecia un ejemplo de una estructura de archivo HTML 5.')
-      p.mb-5(data-aos='fade-right') Veamos a continuación los elementos más comunes para tener en cuenta en el HTML, estos son los más utilizados en el HTML y no solo se muestran, sino que también se indica su origen y/o uso:
+      p.mb-5(data-aos='fade-right') A continuación, se exponen los elementos más comunes y utilizados en el HTML:
       .row.justify-content-center.mb-5
         .col-lg-8(data-aos="fade-right")
           LineaTiempoD.color-acento-contenido.linea-edit.mb-4
@@ -76,13 +76,28 @@
               p #[b  &lt; !DOCTYPE html &gt;]  - el tipo de documento
                 br
                 br
-                |Es un preámbulo requerido. Anteriormente, cuando HTML era joven (cerca de 1991-1992), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno. Lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo, pero que debe ser incluido para que todo funcione correctamente.
+                |Es un preámbulo requerido. 
+                br
+                br
+                |Anteriormente, cuando HTML era joven (cerca de 1991-1992), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno. 
+                br
+                br
+                |Lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo, pero que debe ser incluido para que todo funcione correctamente.
             div(numero="2" titulo="&lt; html &gt")
               p Este elemento encierra todo el contenido de la página entera y a veces, se le conoce como el elemento raíz (#[em root element]).
             div(numero="3" titulo="&lt;head &gt")
-              p Este elemento actúa como un contenedor de todo aquello que se quiere incluir en la página HTML que no es contenido visible por los visitantes. Incluye cosas como palabras clave #[em (keywords)], una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc
+              p Este elemento actúa como un contenedor de todo aquello que se quiere incluir en la página HTML que no es contenido visible por los visitantes. 
+              br
+              br
+              |Incluye cosas como palabras clave #[em (keywords)], una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc
             div(numero="4" titulo="&ltmeta charset= &quot;utf-8&quot&gt")
-              p Este elemento establece el juego de caracteres que el documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que se pueda incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.
+              p Este elemento establece el juego de caracteres que el documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. 
+              br
+              br
+              |Básicamente, puede manejar cualquier contenido de texto que se pueda incluir. 
+              br
+              br
+              |No hay razón para no establecerlo, y puede evitar problemas en el futuro.
             div(numero="5" titulo="&lt;title&gt")
               p Establece el título de la página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la esta es cargada. Se usa para describir la página cuando es añadida a los marcadores o como favorita.
             div(numero="6" titulo="&lt;body&gt")
@@ -112,7 +127,7 @@
               | En la codificación, también se incluye un atributo alt (alternative), el cual contiene un texto que debería describir la imagen y que podría ser accedido por usuarios que no pueden ver la imagen.
               br
               br
-              | Para este caso se debe agregar la imagen que se visualizará en la página en la carpeta quese creó del sitio #[em web], a través de visual studio code.
+              | Para este caso se debe agregar la imagen que se visualizará en la página en la carpeta quese creó del sitio #[em web], a través de Visual Studio Code.
               br
               br
               | Luego sí se procede a ejecutar el sitio dando doble clic al archivo index (que es el archivo HTML) para poder visualizar el resultado, como se ve en la imagen.
@@ -200,7 +215,7 @@
     p.mb-5(data-aos='fade-right') Como se pudo observar el lenguaje HTML #[span.color-primario permite establecer la estructura de un sitio web y colocar cada uno de sus elementos dentro de la página.]
     .row.justify-content-center.mb-5
       .col-lg-8
-        p Todo este proceso debe ser llevado a cabo en un editor de código; en este caso, se ha utilizado visual studio code para realizar el proceso, pero se pueden utilizar otros que estén disponibles en el mercado
+        p Todo este proceso debe ser llevado a cabo en un editor de código; en este caso, se ha utilizado Visual Studio Code para realizar el proceso, pero se pueden utilizar otros que estén disponibles en el mercado
         .tarjeta.color-secundario.p-4.mb-3
               .row.justify-content-center.align-items-center
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')

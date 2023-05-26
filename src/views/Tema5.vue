@@ -14,7 +14,7 @@
       .col-lg-7.mb-lg-0.mb-3
         p Uno de los procesos que requieren mayor análisis y atención es precisamente entender la necesidad del cliente y plasmar de una manera adecuada los elementos y componentes solicitados para el uso del sistema.
         .tarjeta.color-secundario.p-4  
-          p.mb-0.text-white Las hojas de estilo css permiten personalizar la experiencia del usuario al utilizar el sistema y realizarle un proceso de indicaciones de manera adecuada; por lo que en este tema se verá cómo utilizar los estilos css para mejorar la apariencia y usabilidad del sistema.  
+          p.mb-0.text-white Las hojas de estilo CSS permiten personalizar la experiencia del usuario al utilizar el sistema y realizarle un proceso de indicaciones de manera adecuada; por lo que en este tema se verá cómo utilizar los estilos CSS para mejorar la apariencia y usabilidad del sistema.  
       .col-lg-5.col-7: img(src='@/assets/curso/temas/tema5/2.png', alt='')
     p.mb-5(data-aos='fade-right') De acuerdo con las tendencias y manejo de herramientas #[em web] se busca que la apariencia del sistema y su usabilidad cumplan con estándares donde el directamente beneficiado es el usuario del sistema. Se puede de hecho afirmar que un gran porcentaje del éxito de un proyecto de #[em software web] es la capacidad de integrar los componentes, de tal manera que el usuario final tenga una experiencia satisfactoria; una de las cuales está conectada con los siguientes aspectos:
     .bg-tema5.p-5.mn.pb-2
@@ -46,7 +46,7 @@
                   br
                   br
                   | Como comentábamos el HTML define la forma y estructura de una página #[em web] , mientras que el CSS es un lenguaje que funciona a través de hojas de diseño, que decide la apariencia visual a través de estilos
-          p Para efectos del ejercicio seguiremos utilizando nuestro editor de código, visual studio code y procederemos a crear un archivo con la extensión .CSS, como se explica a continuación:
+          p Para efectos del ejercicio seguiremos utilizando nuestro editor de código, Visual Studio Code y procederemos a crear un archivo con la extensión .css, como se explica a continuación:
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-square(style="color: #221b6b")
@@ -109,30 +109,30 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h5 Llamar la URL
-            p Lo primero que se debe realizar es llamar la url de bootstrap del repositorio de Internet, para poder utilizar los estilos que este presenta. La instrucción para realizarlo es la que se puede observar en la siguiente imagen y se debe colocar en la parte superior del documento de HTML.
+            p Lo primero que se debe realizar es llamar la url de Bootstrap del repositorio de Internet, para poder utilizar los estilos que este presenta. La instrucción para realizarlo es la que se puede observar en la siguiente imagen y se debe colocar en la parte superior del documento de HTML.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema5/12.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code en la cual se muestra el código que enlaza el documento HTML con Bootstrap desde el repositorio de internet para poder utilizar los estilos presentes en este.		')
         .row
           .col-md-5.mb-4.mb-md-0
             h5 Revisar el código
-            p El código bootstrap se ha colocado en el documento HTML. En la parte superior se observa el div con la etiqueta “col-4 #[em container-fluid]”. Esta etiqueta permite darle estilo al div para que permita establecer un orden específico a los elementos que se visualizarán en el div. Adicional a ello, la etiqueta class de los componentes ha cambiado utilizando la “#[em form-control]” que es la que controla los elementos en un formulario.
+            p El código Bootstrap se ha colocado en el documento HTML. En la parte superior se observa el div con la etiqueta “col-4 #[em container-fluid]”. Esta etiqueta permite darle estilo al div para que permita establecer un orden específico a los elementos que se visualizarán en el div. Adicional a ello, la etiqueta class de los componentes ha cambiado utilizando la “#[em form-control]” que es la que controla los elementos en un formulario.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema5/13.png', alt='En la imagen se observa una captura de pantalla del entorno de desarrollo de Visual Studio Code en la cual se muestra el código de Bootstrap y su respectiva nomenclatura para poder utilizar los estilos definidos.')
         .row
           .col-md-5.mb-4.mb-md-0
             h5 Visualizando el resultado
-            p Luego de aplicar estos cambios, se puede visualizar el estilo que viene desde el repositorio del #[em framework] bootstrap.
+            p Luego de aplicar estos cambios, se puede visualizar el estilo que viene desde el repositorio del #[em framework] Bootstrap.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema5/14.png', alt='En la imagen se observa el resultado obtenido en el navegador de la implementación de los estilos utilizado con Bootstrap para estilizar un formulario de registro.		')
     .row.justify-content-center.mb-5
       .col-lg-2.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/15.svg', alt='')
       .col-lg-10(data-aos="fade-left")
-        p Como se puede observar en las imágenes el estilo de los controles y aspecto de la página ha cambiado, esto debido a que todos los estilos aplicados en la página vienen del repositorio de bootstrap que se encuentra en Internet; de esta manera, se pueden cambiar todos los controles solo llamando la propiedad que se requiere dentro del programa.
+        p Como se puede observar en las imágenes el estilo de los controles y aspecto de la página ha cambiado, esto debido a que todos los estilos aplicados en la página vienen del repositorio de Bootstrap que se encuentra en Internet; de esta manera, se pueden cambiar todos los controles solo llamando la propiedad que se requiere dentro del programa.
         .tarjeta.color-secundario.p-4
-          p.mb-0.text-white Cabe resaltar que todos los componentes que se han utilizado hasta el momento, con respecto al estilo, vienen de Internet (son libres), ya que se agregó la url para poder utilizar dichos estilos; y en caso de que en la página de bootstrap realicen un cambio de diseño, afectará a todas las páginas que dependen de estos repositorios para colocar los estilos a su página.
+          p.mb-0.text-white Cabe resaltar que todos los componentes que se han utilizado hasta el momento, con respecto al estilo, vienen de Internet (son libres), ya que se agregó la url para poder utilizar dichos estilos; y en caso de que en la página de Bootstrap realicen un cambio de diseño, afectará a todas las páginas que dependen de estos repositorios para colocar los estilos a su página.
 
 
 </template>

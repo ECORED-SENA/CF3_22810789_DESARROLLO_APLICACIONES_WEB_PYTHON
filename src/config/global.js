@@ -101,6 +101,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/22810789_CF03_DU.pdf',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -250,13 +255,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Fabian Zarate',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador web',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Emilsen Bautista ',
+          nombre: 'Emilsen Alfonso Bautista ',
           cargo: 'Actividad didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
@@ -264,18 +269,6 @@ export default {
         {
           nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Zuleidy María Ruíz Torres ',
-          cargo: 'Validación audiovisual ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Camilo Andrés Bolaño Rey',
-          cargo: ' Locución ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
@@ -298,8 +291,8 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Luis Gabriel Urueta ',
-          cargo: 'Validación Contenido ',
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: ' Locución ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
@@ -309,14 +302,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Zuleidy María Ruíz Torres',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Luis Gabriel Urueta',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

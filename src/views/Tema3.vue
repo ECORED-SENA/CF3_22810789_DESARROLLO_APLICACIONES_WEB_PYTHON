@@ -19,12 +19,12 @@
         .row.justify-content-center.align-items-center
           .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/2.svg', alt='') 
           .col-lg-11
-            p.mb-0 Todos los procesos que se llevan a cabo en la construcción de un producto de software se deben negociar a través de establecer prototipos que son validados por parte del usuario y de esta manera ir avanzando en procesos que garanticen una aceptación válida por parte del cliente.
+            p.mb-0 Todos los procesos que se llevan a cabo en la construcción de un producto de #[em software] se deben negociar a través de establecer prototipos que son validados por parte del usuario y de esta manera ir avanzando en procesos que garanticen una aceptación válida por parte del cliente.
       p.mb-5(data-aos='fade-right') A continuación, veremos #[span.color-primario cómo crear o conceptualizar un #[em mockup (Wireframe)] de un aplicativo a desarrollar como parte del proceso de negociación-aprobación entre la persona encargada del desarrollo y el cliente:]
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/lUk09iM8NUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.mt-3 Video. ¿Cómo realizar un wireframe?
+        figcaption.mt-3 Video. ¿Cómo realizar un #[em wireframe]?
     p.mb-5(data-aos='fade-right') Como pudimos apreciar a través del video sobre la construcción de un #[em wireframe], el mismo está listo para ser validado por el usuario. 
     .tarjeta.bg-tema3-card.p-5.mb-4
       .row.justify-content-center.mb-5
@@ -32,8 +32,8 @@
         .col-lg-8 
           .card-icon.p-4.mb-4
             p.mb-0.ms-5 Todos los cambios que se realicen hacen parte del proceso de negociación que se establezca, esta técnica y también documentación de proceso permite mostrarle al usuario o cliente un prototipo no funcional en el cual se pueden realizar cambios sin necesidad de tener que codificar la aplicación y los cambios deben ser registrados en un acta donde firma el cliente y el responsable de la construcción del producto para dejar como evidencia la negociación y aceptación de lo establecido en el prototipo.
-          p.mb-0(data-aos='fade-right') Gracias a la facilidad que esta herramienta ofrece para la construcción de prototipos y/o bocetos de #[em Front-End] tenemos una alta probabilidad que podemos pasar a una etapa de producción del diseño sin problemas de aceptación al final; ahora bien, sabemos que todo producto de #[em software] sufre cambios y modificaciones a lo largo de su proceso de construcción es indispensable ver desde el punto de aceptación del producto que tan factible es realizar un cambio sin afectar la negociación inicial que se tenía por el producto. De lo contrario, se procederá a realizar un nuevo diseño de #[em wireframes] para validar nuevamente el nuevo diseño o propuesta que requiere el cliente y luego desplegar estos cambios en la etapa de construcción del diseño funcional.
-    p.mb-5(data-aos='fade-right') En resumen, podríamos agregar que un #[em wireframes] es una representación visual en escala de grises de la estructura y funcionalidad de una sola página #[em web] o pantalla de aplicación móvil, la cual permite conocer el diseño y distribución que presenta un software, es importante tener en cuenta que estos son negociados con el cliente y pertenecen a la documentación del proyecto, aunque su función principal es generar bocetos para solicitar por parte del cliente una aceptación. 
+          p.mb-0(data-aos='fade-right') Gracias a la facilidad que esta herramienta ofrece para la construcción de prototipos y/o bocetos de #[em front-end] tenemos una alta probabilidad que podemos pasar a una etapa de producción del diseño sin problemas de aceptación al final; ahora bien, sabemos que todo producto de #[em software] sufre cambios y modificaciones a lo largo de su proceso de construcción es indispensable ver desde el punto de aceptación del producto que tan factible es realizar un cambio sin afectar la negociación inicial que se tenía por el producto. De lo contrario, se procederá a realizar un nuevo diseño de #[em wireframes] para validar nuevamente el nuevo diseño o propuesta que requiere el cliente y luego desplegar estos cambios en la etapa de construcción del diseño funcional.
+    p.mb-5(data-aos='fade-right') En resumen, podríamos agregar que un #[em wireframes] es una representación visual en escala de grises de la estructura y funcionalidad de una sola página #[em web] o pantalla de aplicación móvil, la cual permite conocer el diseño y distribución que presenta un #[em software], es importante tener en cuenta que estos son negociados con el cliente y pertenecen a la documentación del proyecto, aunque su función principal es generar bocetos para solicitar por parte del cliente una aceptación. 
     .bg-tema3-2.p-5.mn.mb-4.pb-2
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -55,7 +55,7 @@
                 
                   img(src="@/assets/template/icono-link.svg")
               .col-md-9
-                  p #[b Axure], Software para crear prototipos y especificaciones para sitios #[em web] y aplicaciones.  
+                  p #[b Axure], #[em Software] para crear prototipos y especificaciones para sitios #[em web] y aplicaciones.  
         .col-lg-4.mb-lg-0.mb-3
           a.anexo.mb-lg-0(href="https://www.mockflow.com" target="_blank").h-100.m-auto
             .row.justify-content-around.align-items-center
@@ -63,7 +63,7 @@
                 
                   img(src="@/assets/template/icono-link.svg")
               .col-md-9
-                  p #[b Mockflow], software de wireframing en su flujo de trabajo de diseño. 
+                  p #[b Mockflow], #[em software] de #[em wireframing] en su flujo de trabajo de diseño. 
         .col-lg-4
           a.anexo.mb-lg-0(href="https://www.gliffy.com" target="_blank").h-100.m-auto
             .row.justify-content-around.align-items-center
@@ -71,7 +71,7 @@
                 
                   img(src="@/assets/template/icono-link.svg")
               .col-md-9
-                  p #[b Gliffy], software para crear diagramas UML, diagramas de flujo y otros tipos de diagramas en línea. 
+                  p #[b Gliffy], #[em software] para crear diagramas UML, diagramas de flujo y otros tipos de diagramas en línea. 
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/5.jpg')})`}"

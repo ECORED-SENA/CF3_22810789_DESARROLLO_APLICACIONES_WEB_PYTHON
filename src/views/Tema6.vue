@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Diseño de formularios y front-end
+      h1 Diseño de formularios y #[em front-end]
     p.mb-4(data-aos='fade-right') #[em Front-End] es la parte de un sitio #[em web] que interactúa con los usuarios, por eso se dice que está del lado del cliente. El #[em back-end], por su parte, es la parte que se conecta con la base de datos y el servidor que utiliza dicho sitio #[em web], por eso se dice que este corre del lado del servidor.
     .bg-tema6.mn.p-5.pb-2.mb-5.pt-0
       .row.justify-content-center.mb-5
@@ -15,7 +15,7 @@
               .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')
               .col-lg-10
                 p.text-white El #[em front-end] es todo lo relacionado a las interfaces y componentes de diseño mediante los cuales el usuario final del aplicativo interactúa, es importante tener en cuenta que al ser un proceso que está de cara al usuario se debe ser muy cuidadoso al no sobrecargar las vistas mediante las cuales interactúa el usuario, ya que esto podría ocasionar que este no logre realizar una correcta interpretación del uso del aplicativo y termine fracasando el proyecto debido a que el usuario no puede utilizar el sistema.
-          p Existen muchas técnicas que se pueden utilizar para la construcción de front-end y es el uso de #[em frameworks] como vimos anteriormente o de hojas de estilo CSS, ya que esto permite   que se pueda lograr una integración entre el usuario final y el producto construido.
+          p Existen muchas técnicas que se pueden utilizar para la construcción de #[em front-end] y es el uso de #[em frameworks] como vimos anteriormente o de hojas de estilo CSS, ya que esto permite   que se pueda lograr una integración entre el usuario final y el producto construido.
           p En este componente también abordamos conceptos como #[em wireframes], los cuales #[span.color-primario permiten mostrar al usuario interesado en el producto la idea principal de lo que se requiere hacer y luego si llevarlo a producción para la entrega del producto final al usuario], este proceso aunque se puede llegar a pensar que es un retroceso por el contrario permite ir validando la satisfacción del usuario final a medida que se avanza en el producto y evitar que se construya algo que no tendrá aceptación al final de su construcción esto ahorra tiempo y dinero a las empresas.
         .col-lg-5.col-6: img(src='@/assets/curso/temas/tema6/1.png', alt='')
     p.mb-5(data-aos='fade-right') Un ejemplo de #[em front-end] es el construido anteriormente, el cual se retoma a continuación para realizar un pequeño repaso sobre lo trabajado:
@@ -24,7 +24,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 7 
           br
-          span.fst-italic Ejemplo de Front-end
+          span.fst-italic Ejemplo de #[em front-end]
         img(src='@/assets/curso/temas/tema6/2.png', alt='En la imagen se observa el resultado obtenido en el navegador de la implementación de los estilos CSS utilizado en estilizar un formulario de registro.')
     p.mb-5(data-aos='fade-right') En el siguiente recurso se va a elaborar un ejemplo de construcción de un #[em front-end] para el registro de estudiantes que requieren aplicar a una beca:
     .bg-slyde.p-5.mb-4.tarjeta
@@ -83,7 +83,7 @@
       .col-lg-10(data-aos="fade-left")
         .tarjeta.color-secundario.p-4.mb-3
           p.mb-0.text-white Es importante tener en cuenta que las hojas de estilo son una gran ayuda al momento en el que se construyen los formularios y como se observa el resultado es bastante diferente a cuando no se aplican estos estilos.
-        p Ahora, el mayor potencial que podemos sacarle a las hojas de estilo es la ubicación de componentes, los cuales hemos mencionado en repetidas ocasiones que permiten ayudar a construir interfaces que ayuden al usuario a realizar un proceso de navegación y uso del sistema de manera óptima.
+        p Ahora, el mayor potencial que se puede sacar de las hojas de estilo es la ubicación de componentes, los cuales, ya se ha mencionado en repetidas ocasiones, permiten ayudar a construir interfaces que ayuden al usuario a realizar un proceso de navegación y un uso del sistema óptimo.
 
 </template>
 
