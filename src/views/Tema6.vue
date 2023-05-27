@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 6
       h1 Diseño de formularios y #[em front-end]
-    p.mb-4(data-aos='fade-right') #[em Front-End] es la parte de un sitio #[em web] que interactúa con los usuarios, por eso se dice que está del lado del cliente. El #[em back-end], por su parte, es la parte que se conecta con la base de datos y el servidor que utiliza dicho sitio #[em web], por eso se dice que este corre del lado del servidor.
+    p.mb-4(data-aos='fade-right') #[em Front-End] es la parte de un sitio web que interactúa con los usuarios, por eso se dice que está del lado del cliente. El #[em back-end], por su parte, es la parte que se conecta con la base de datos y el servidor que utiliza dicho sitio web, por eso se dice que este corre del lado del servidor.
     .bg-tema6.mn.p-5.pb-2.mb-5.pt-0
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3

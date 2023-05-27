@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 #[em Wireframes] en aplicaciones #[em web]
+      h1 #[em Wireframes] en aplicaciones web
     p.mb-3(data-aos='fade-right') A continuación, abordaremos una técnica de negociación con el cliente, la cual #[span.color-primario permite establecer los parámetros y componentes que tendrán las vistas del sistema. Esto permitirá que el diseño de la aplicación se ajuste a las necesidades y requerimientos establecidos por el cliente.]
     .bg-tema3.p-5.pt-2.mn.mb-4.pb-2
       .row.justify-content-center.mb-5
@@ -33,7 +33,7 @@
           .card-icon.p-4.mb-4
             p.mb-0.ms-5 Todos los cambios que se realicen hacen parte del proceso de negociación que se establezca, esta técnica y también documentación de proceso permite mostrarle al usuario o cliente un prototipo no funcional en el cual se pueden realizar cambios sin necesidad de tener que codificar la aplicación y los cambios deben ser registrados en un acta donde firma el cliente y el responsable de la construcción del producto para dejar como evidencia la negociación y aceptación de lo establecido en el prototipo.
           p.mb-0(data-aos='fade-right') Gracias a la facilidad que esta herramienta ofrece para la construcción de prototipos y/o bocetos de #[em front-end] tenemos una alta probabilidad que podemos pasar a una etapa de producción del diseño sin problemas de aceptación al final; ahora bien, sabemos que todo producto de #[em software] sufre cambios y modificaciones a lo largo de su proceso de construcción es indispensable ver desde el punto de aceptación del producto que tan factible es realizar un cambio sin afectar la negociación inicial que se tenía por el producto. De lo contrario, se procederá a realizar un nuevo diseño de #[em wireframes] para validar nuevamente el nuevo diseño o propuesta que requiere el cliente y luego desplegar estos cambios en la etapa de construcción del diseño funcional.
-    p.mb-5(data-aos='fade-right') En resumen, podríamos agregar que un #[em wireframes] es una representación visual en escala de grises de la estructura y funcionalidad de una sola página #[em web] o pantalla de aplicación móvil, la cual permite conocer el diseño y distribución que presenta un #[em software], es importante tener en cuenta que estos son negociados con el cliente y pertenecen a la documentación del proyecto, aunque su función principal es generar bocetos para solicitar por parte del cliente una aceptación. 
+    p.mb-5(data-aos='fade-right') En resumen, podríamos agregar que un #[em wireframes] es una representación visual en escala de grises de la estructura y funcionalidad de una sola página web o pantalla de aplicación móvil, la cual permite conocer el diseño y distribución que presenta un #[em software], es importante tener en cuenta que estos son negociados con el cliente y pertenecen a la documentación del proyecto, aunque su función principal es generar bocetos para solicitar por parte del cliente una aceptación. 
     .bg-tema3-2.p-5.mn.mb-4.pb-2
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -43,7 +43,7 @@
               p.mb-0 A veces el #[em wireframing] puede parecer innecesario, pues creemos que tenemos la “idea final” del proyecto en nuestra cabeza, y sólo necesitamos trasladarla al ordenador.
                 br
                 br
-                | Sin embargo, si se incorpora este proceso a la metodología de trabajo, se notarán las múltiples ventajas de los #[em wireframes] para el diseño #[em web]: agilizarán los procesos y optimizará los tiempos. Así mismo, generarán un repertorio gráfico al que se puede recurrir ante nuevos encargos y se tendrá una idea clara del rumbo que ha de seguir el proyecto al unificar los criterios sobre una estructura y contenido con el resto de tu equipo y, más importante aún, con el cliente.
+                | Sin embargo, si se incorpora este proceso a la metodología de trabajo, se notarán las múltiples ventajas de los #[em wireframes] para el diseño web: agilizarán los procesos y optimizará los tiempos. Así mismo, generarán un repertorio gráfico al que se puede recurrir ante nuevos encargos y se tendrá una idea clara del rumbo que ha de seguir el proyecto al unificar los criterios sobre una estructura y contenido con el resto de tu equipo y, más importante aún, con el cliente.
           p Gracias al #[em wireframe] se asegura de que los posibles cambios queden limitados a cuestiones estéticas, lo cual agilizará enormemente el desarrollo del trabajo. 
         .col-lg-5.col-8: img(src='@/assets/curso/temas/tema3/4.png', alt='')
       p.mb-5(data-aos='fade-right') Si se desea empezar a practicar la ejecución del #[em wireframes], existen en Internet varias herramientas gratuitas que ayudan a diseñarlos; a continuación, se dejan los enlaces de algunas de las más importantes:
@@ -55,7 +55,7 @@
                 
                   img(src="@/assets/template/icono-link.svg")
               .col-md-9
-                  p #[b Axure], #[em Software] para crear prototipos y especificaciones para sitios #[em web] y aplicaciones.  
+                  p #[b Axure], #[em Software] para crear prototipos y especificaciones para sitios web y aplicaciones.  
         .col-lg-4.mb-lg-0.mb-3
           a.anexo.mb-lg-0(href="https://www.mockflow.com" target="_blank").h-100.m-auto
             .row.justify-content-around.align-items-center

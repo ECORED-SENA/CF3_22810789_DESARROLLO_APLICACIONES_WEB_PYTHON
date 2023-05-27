@@ -42,7 +42,7 @@
               p.mb-0 Luego, se procede a crear una carpeta en una ubicación del computador y se abre en el editor de código para después agregar los archivos en este espacio de trabajo.
             li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
-              p.mb-0 Seguidamente, se abre la carpeta creada en Visual Studio Code para realizar la creación de los diferentes archivos requeridos en el sitio #[em web.]
+              p.mb-0 Seguidamente, se abre la carpeta creada en Visual Studio Code para realizar la creación de los diferentes archivos requeridos en el sitio web.
             li.d-flex
               i.fas.fa-square(style="color: #362b9e ")
               p.mb-0 Luego de realizar la subida de la carpeta para trabajar, se debe crear el archivo HTML para hacer la codificación de la estructura de la página. Se hace clic en el primer ícono de la barra de la carpeta llamado #[em new file] y, luego, se procede a colocarle el nombre de acuerdo con la dinámica del proyecto.
@@ -101,7 +101,7 @@
             div(numero="5" titulo="&lt;title&gt")
               p Establece el título de la página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la esta es cargada. Se usa para describir la página cuando es añadida a los marcadores o como favorita.
             div(numero="6" titulo="&lt;body&gt")
-              p Encierra todo el contenido que se desea mostrar a los usuarios #[em web] que visiten la página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
+              p Encierra todo el contenido que se desea mostrar a los usuarios web que visiten la página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/7.svg', alt='')
     .cajon-b.color-primario.p-3.mb-5.arriba-derecha
       .row.justify-content-center.align-items-center.mb-5
@@ -109,7 +109,7 @@
           p Estos elementos, mencionados anteriormente, son las cabeceras principales para realizar la estructura y maquetación de un sitio. 
             br
             br
-            span.color-primario Ahora a continuación, se explican algunas instrucciones para operar de manera adecuada la creación de contenidos del sitio #[em web]:
+            span.color-primario Ahora a continuación, se explican algunas instrucciones para operar de manera adecuada la creación de contenidos del sitio web:
         .col-lg-1.col-4.order-1.order-lg-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
     TabsB.color-primario.mb-5
       .bg-p.p-4.py-md-5(titulo="Imágenes" :icono="require('@/assets/curso/temas/tema4/9.svg')")
@@ -127,7 +127,7 @@
               | En la codificación, también se incluye un atributo alt (alternative), el cual contiene un texto que debería describir la imagen y que podría ser accedido por usuarios que no pueden ver la imagen.
               br
               br
-              | Para este caso se debe agregar la imagen que se visualizará en la página en la carpeta quese creó del sitio #[em web], a través de Visual Studio Code.
+              | Para este caso se debe agregar la imagen que se visualizará en la página en la carpeta quese creó del sitio web, a través de Visual Studio Code.
               br
               br
               | Luego sí se procede a ejecutar el sitio dando doble clic al archivo index (que es el archivo HTML) para poder visualizar el resultado, como se ve en la imagen.
@@ -175,7 +175,7 @@
       .bg-p.p-4.py-md-5(titulo="Listas" :icono="require('@/assets/curso/temas/tema4/17.svg')")
         .row
           .col-lg-6.mb-4.mb-md-0
-            p Mucho del contenido #[em web]  está dado por listas, así que HTML tiene elementos especiales para ellas. 
+            p Mucho del contenido web está dado por listas, así que HTML tiene elementos especiales para ellas. 
               br
               br
               | El marcado de listas se realiza siempre en al menos dos elementos. Los dos tipos de listas más comunes son las listas ordenadas y las desordenadas:
@@ -206,7 +206,7 @@
               br
               | #[b  &lt;a href=""&gt;Manifesto Mozilla&lt;/a&gt;]
               br
-              | Completa el valor de este atributo con la dirección #[em web]  con la que quieras conectar al vínculo:
+              | Completa el valor de este atributo con la dirección web con la que quieras conectar al vínculo:
               br
               | #[b &lt;a href="https://www.mozilla.org/es-AR/about/manifesto/"&gt;Manifesto Mozilla&lt;/a&gt;]
               br
@@ -220,8 +220,8 @@
               .row.justify-content-center.align-items-center
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')
                 .col-lg-10
-                  p.text-white En el material complementario, se comparte un vídeo ilustrativo del uso del lenguaje HTML para explorar mucho más estas líneas de comando que permiten armar un sitio #[em web] completo.
-        p La temática de lenguaje HTML es fundamental para el desarrollo de un sitio #[em web], el cual requiere de una cantidad de componentes para su construcción. Muchas de las instrucciones en el lenguaje HTML se orientan a la creación de los espacios de trabajo con los cuales interactúa el cliente o usuario final. Es importante que tanto en el diseño como en la construcción, la ubicación de los componentes esté debidamente distribuida para no ocasionar problemas al momento de usar el sistema por parte del usuario.
+                  p.text-white En el material complementario, se comparte un vídeo ilustrativo del uso del lenguaje HTML para explorar mucho más estas líneas de comando que permiten armar un sitio web completo.
+        p La temática de lenguaje HTML es fundamental para el desarrollo de un sitio web, el cual requiere de una cantidad de componentes para su construcción. Muchas de las instrucciones en el lenguaje HTML se orientan a la creación de los espacios de trabajo con los cuales interactúa el cliente o usuario final. Es importante que tanto en el diseño como en la construcción, la ubicación de los componentes esté debidamente distribuida para no ocasionar problemas al momento de usar el sistema por parte del usuario.
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/19.png', alt='')
 </template>
 

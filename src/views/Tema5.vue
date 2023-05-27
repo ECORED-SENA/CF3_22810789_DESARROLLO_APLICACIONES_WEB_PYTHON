@@ -9,14 +9,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-6(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/1.svg', alt='')
       .col-lg-11(data-aos="fade-left")
-        p.mb-0 Las hojas de estilo CSS son las que permiten organizar un código de estructura de página HTML, el nacimiento de este componente se realiza por la necesidad de poder organizar los elementos que se reflejan en una página #[em web]  y que están estrechamente relacionados con su distribución y ubicación de componentes. 
+        p.mb-0 Las hojas de estilo CSS son las que permiten organizar un código de estructura de página HTML, el nacimiento de este componente se realiza por la necesidad de poder organizar los elementos que se reflejan en una página web y que están estrechamente relacionados con su distribución y ubicación de componentes. 
     .row.justify-content-center.mb-4
       .col-lg-7.mb-lg-0.mb-3
         p Uno de los procesos que requieren mayor análisis y atención es precisamente entender la necesidad del cliente y plasmar de una manera adecuada los elementos y componentes solicitados para el uso del sistema.
         .tarjeta.color-secundario.p-4  
           p.mb-0.text-white Las hojas de estilo CSS permiten personalizar la experiencia del usuario al utilizar el sistema y realizarle un proceso de indicaciones de manera adecuada; por lo que en este tema se verá cómo utilizar los estilos CSS para mejorar la apariencia y usabilidad del sistema.  
       .col-lg-5.col-7: img(src='@/assets/curso/temas/tema5/2.png', alt='')
-    p.mb-5(data-aos='fade-right') De acuerdo con las tendencias y manejo de herramientas #[em web] se busca que la apariencia del sistema y su usabilidad cumplan con estándares donde el directamente beneficiado es el usuario del sistema. Se puede de hecho afirmar que un gran porcentaje del éxito de un proyecto de #[em software web] es la capacidad de integrar los componentes, de tal manera que el usuario final tenga una experiencia satisfactoria; una de las cuales está conectada con los siguientes aspectos:
+    p.mb-5(data-aos='fade-right') De acuerdo con las tendencias y manejo de herramientas web se busca que la apariencia del sistema y su usabilidad cumplan con estándares donde el directamente beneficiado es el usuario del sistema. Se puede de hecho afirmar que un gran porcentaje del éxito de un proyecto de #[em software] web es la capacidad de integrar los componentes, de tal manera que el usuario final tenga una experiencia satisfactoria; una de las cuales está conectada con los siguientes aspectos:
     .bg-tema5.p-5.mn.pb-2
       .row.justify-content-center.mb-5
         .col-lg-3.mb-lg-0.mb-3
@@ -45,7 +45,7 @@
                 p.text-white La principal diferencia radica en el propio concepto de ambos lenguajes. 
                   br
                   br
-                  | Como comentábamos el HTML define la forma y estructura de una página #[em web] , mientras que el CSS es un lenguaje que funciona a través de hojas de diseño, que decide la apariencia visual a través de estilos
+                  | Como comentábamos el HTML define la forma y estructura de una página web , mientras que el CSS es un lenguaje que funciona a través de hojas de diseño, que decide la apariencia visual a través de estilos
           p Para efectos del ejercicio seguiremos utilizando nuestro editor de código, Visual Studio Code y procederemos a crear un archivo con la extensión .css, como se explica a continuación:
           ul.lista-ul--color
             li.d-flex
@@ -99,10 +99,10 @@
       h3 Manejo de #[em framework] Bootstrap
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p Es un #[em framework] para el uso de estilos y diseño de componentes, el cual tiene su propio repositorio en Internet. Este se usa para aplicar estilos ya predeterminados en los diseños de los formularios a construir y hace mucho más ameno el trabajo en cuanto a estilo y diseño de las plantillas de las páginas #[em web.]
+        p Es un #[em framework] para el uso de estilos y diseño de componentes, el cual tiene su propio repositorio en Internet. Este se usa para aplicar estilos ya predeterminados en los diseños de los formularios a construir y hace mucho más ameno el trabajo en cuanto a estilo y diseño de las plantillas de las páginas web.
         .tarjeta.bg-card1.p-4.py-5.mb-4 
           p.mb-0.ms-5 Este #[em framework] (Bootstrap) es uno de los más utilizados a nivel mundial ya que posee una excelente documentación y se consiguen bastantes ejemplos en toda la internet.
-        p #[span.color-primario Se muestra un ejemplo del manejo del framework Bootstrap aplicado a los estilos de páginas #[em web]:]
+        p #[span.color-primario Se muestra un ejemplo del manejo del #[em framework] Bootstrap aplicado a los estilos de páginas web:]
       .col-lg-5.col-7: img(src='@/assets/curso/temas/tema5/7.png', alt='')
     .bg-slyde.p-5.tarjeta.mb-5
       SlyderA(tipo='b')

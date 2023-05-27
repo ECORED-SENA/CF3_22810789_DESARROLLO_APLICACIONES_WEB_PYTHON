@@ -32,13 +32,13 @@
         .row.justify-content-center.align-items-center
           .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/3.svg', alt='')
           .col-lg-11: p.mb-0 Dentro de la documentación del usuario se explica qué contiene cada parte del sistema, a qué lugar lo llevará y qué información debe este suministrar para realizar las operaciones que se requieren dentro del mismo. Esto no solo ayuda a la operación del sistema, sino que también le permite al usuario ser mucho más preciso y realizar un aprovechamiento del sistema de una manera adecuada.
-      p.mb-5(data-aos='fade-right') Los mapas de navegación también surgen de los procesos de documentación de sistemas de información, esto está orientado en gran parte a las aplicaciones #[em web] y móviles las cuales en la mayoría de los casos pueden llegar a ser un poco más complejas de operar para los usuarios y los mapas de navegación se convierten en un insumo valioso para mitigar estos inconvenientes.
+      p.mb-5(data-aos='fade-right') Los mapas de navegación también surgen de los procesos de documentación de sistemas de información, esto está orientado en gran parte a las aplicaciones web y móviles las cuales en la mayoría de los casos pueden llegar a ser un poco más complejas de operar para los usuarios y los mapas de navegación se convierten en un insumo valioso para mitigar estos inconvenientes.
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3
-          p.mb-3 El mapa de navegación #[span.color-primario es un esquema, que se puede pensar como un árbol jerárquico, que representa la arquitectura de las páginas de un sitio #[em web].]
+          p.mb-3 El mapa de navegación #[span.color-primario es un esquema, que se puede pensar como un árbol jerárquico, que representa la arquitectura de las páginas de un sitio web.]
           .tarjeta.p-4.mb-3(style="background-color: #d5cef8 ") 
             p.mb-0 Esta representación gráfica puede ser como un mapa conceptual, para visualizar y entender el recorrido del visitante; es decir, su navegación y cómo este llega a lo que está buscando. También, en este se organiza la distribución y la jerarquía del contenido.
-          p Las ventajas de tener un mapa de navegación es que permite lograr diferenciarse de los demás sistemas al tener un sitio amigable y que entiende al usuario, contar con un fácil acceso al contenido y con ello, la generación de más conversiones y de satisfacción con el servicio que se provee en un sitio #[em web], como lo puede ser en algunos casos el informativo.
+          p Las ventajas de tener un mapa de navegación es que permite lograr diferenciarse de los demás sistemas al tener un sitio amigable y que entiende al usuario, contar con un fácil acceso al contenido y con ello, la generación de más conversiones y de satisfacción con el servicio que se provee en un sitio web, como lo puede ser en algunos casos el informativo.
         .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/4.png', alt='')
       .cajon-b.color-acento-contenido.p-3.mb-5.arriba-derecha
         .row.justify-content-center.align-items-center.mb-5
@@ -58,7 +58,7 @@
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/tema1/7.svg', alt='')
-          p.text-center Se establece cuáles y el número de páginas que se van a desplegar en las diferentes secciones del sitio #[em web]
+          p.text-center Se establece cuáles y el número de páginas que se van a desplegar en las diferentes secciones del sitio web.
         .tarjeta.p-4.bg-card-1
           .row.justify-content-center.mb-3
             .col-5
@@ -74,13 +74,13 @@
             .col-5
               img(src='@/assets/curso/temas/tema1/10.svg', alt='')
           p.text-center Finalmente, se comparte y explica el mapa de navegación a otras personas para identificar si es entendible y amigable de la forma en la que se presenta la información.
-    p.mb-5(data-aos='fade-right') Estos consejos permitirán realizar un diseño de mapa de navegación de manera correcta teniendo los propósitos y lineamientos necesarios para realizar este tipo de procesos que son requeridos por los sistemas de información, dando como prioridad a aquellos que utilizan interfaces gráficas orientadas a la #[em web] y dispositivos móviles; es importante también tener en cuenta que cada una de las aplicaciones informáticas deben estar inmensamente incluidas dentro de todos estos procesos en particular.
+    p.mb-5(data-aos='fade-right') Estos consejos permitirán realizar un diseño de mapa de navegación de manera correcta teniendo los propósitos y lineamientos necesarios para realizar este tipo de procesos que son requeridos por los sistemas de información, dando como prioridad a aquellos que utilizan interfaces gráficas orientadas a la web y dispositivos móviles; es importante también tener en cuenta que cada una de las aplicaciones informáticas deben estar inmensamente incluidas dentro de todos estos procesos en particular.
     .subtitulo.mb-4(data-aos='fade-right')
       h3 Tipos de mapa de navegación
     .cajon-b.color-primario.p-3.mb-5.arriba-derecha
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          p.mb-0 Para establecer la estructura del mapa de navegación de un sitio #[em web] se pueden crear diferentes tipos de rutas, dependiendo de la complejidad del sitio y de su número de páginas, así puede haber varios niveles de estructura #[em web] para gestionar la información.
+          p.mb-0 Para establecer la estructura del mapa de navegación de un sitio web se pueden crear diferentes tipos de rutas, dependiendo de la complejidad del sitio y de su número de páginas, así puede haber varios niveles de estructura web para gestionar la información.
             br
             br
             span.color-primario Se presentan los tipos de estructuras:
@@ -95,7 +95,7 @@
       .row(numero="2" titulo="Estructura jerárquica")
         .row.justify-content-center.mb-5
           .col-lg-4
-            p Esta estructura pone en un rango superior la página de inicio y en un nivel inferior de ella, las diferentes categorías y subcategorías del sitio #[em web.] 
+            p Esta estructura pone en un rango superior la página de inicio y en un nivel inferior de ella, las diferentes categorías y subcategorías del sitio web. 
           .col-lg-8
             img(src='@/assets/curso/temas/tema1/13.svg', alt='La imagen muestra un ejemplo de una estructura jerárquica. En el diagrama, se pueden identificar diferentes niveles o capas de elementos organizados de manera jerárquica. En la parte superior se encuentra un elemento principal o raíz, del cual se desprenden ramificaciones o subelementos en niveles inferiores. Cada nivel representa una relación de subordinación, donde los elementos inferiores están vinculados y dependen del elemento superior.')
       .row(numero="3" titulo="Estructura compuesta")

@@ -18,14 +18,14 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Selección de la herramienta
-            p Existen muchas herramientas en las que se puede realizar este proceso, sin embargo, el #[em software] a utilizar, para este caso, se denomina FlowMapp, el cual permite crear el mapa de navegación para un sitio #[em web.]
+            p Existen muchas herramientas en las que se puede realizar este proceso, sin embargo, el #[em software] a utilizar, para este caso, se denomina FlowMapp, el cual permite crear el mapa de navegación para un sitio web.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema2/2.png', alt='La imagen muestra un pantallazo de la pagina principal del  sitio web de FlowMapp, el usuario debe registrarse a través del botón llamado "Sign up free".')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Registro
-            p Una vez escogida la herramienta con la que se va a trabajar. Se procede a realizar el registro en el sitio #[em web] para utilizar la aplicación. Luego de ello, se solicitará seleccionar un plan; en este caso, se escoge la opción #[em “Sing up free”] para tener una licencia de uso libre.
+            p Una vez escogida la herramienta con la que se va a trabajar. Se procede a realizar el registro en el sitio web para utilizar la aplicación. Luego de ello, se solicitará seleccionar un plan; en este caso, se escoge la opción #[em “Sing up free”] para tener una licencia de uso libre.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema2/3.png', alt='La imagen muestra un pantallazo de las diferentes opciones de planes que están disponibles, se invita al usuario a seleccionar la opción “sing up free”.')
@@ -53,7 +53,7 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Seleccionamos la plantilla
-            p Después, saldrá un listado para escoger, si se desea utilizar una plantilla o construirla en blanco, a efectos del ejercicio se selecciona la opción de plantilla. Es importante tener en cuenta que hasta este punto no se ha definido las opciones del aplicativo #[em web], las cuales se mencionan más adelante.
+            p Después, saldrá un listado para escoger, si se desea utilizar una plantilla o construirla en blanco, a efectos del ejercicio se selecciona la opción de plantilla. Es importante tener en cuenta que hasta este punto no se ha definido las opciones del aplicativo web, las cuales se mencionan más adelante.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema2/7.png', alt='La imagen muestra la interfaz de plantillas de mapas de sitios web de Flowmapp, en la cual se tiene la opción de seleccionar una plantilla o construirla desde cero.')
@@ -67,7 +67,7 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Culminación de este
-            p Teniendo en cuenta lo anterior, esto permitirá que el usuario pueda tener un conocimiento mucho más detallado de lo que presenta la aplicación y poder tomar como referencia esa información para poder realizar un uso adecuado de cada una de las funciones que ofrece el sistema. En la imagen, se muestra, a manera de ejemplo, cómo quedaría la distribución de un posible mapa de navegación de un sitio #[em web.]
+            p Teniendo en cuenta lo anterior, esto permitirá que el usuario pueda tener un conocimiento mucho más detallado de lo que presenta la aplicación y poder tomar como referencia esa información para poder realizar un uso adecuado de cada una de las funciones que ofrece el sistema. En la imagen, se muestra, a manera de ejemplo, cómo quedaría la distribución de un posible mapa de navegación de un sitio web.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema2/9.png', alt='La imagen muestra un ejemplo de distribución de mapa de sitio web creado a partir de una plantilla del aplicativo web Flowmapp.		')
