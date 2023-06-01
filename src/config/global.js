@@ -208,13 +208,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal',
+          nombre: 'Maria Camila García Santamaria',
           cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Responsable del equipo ',
+          cargo: 'Asesor metodológico y pedagógico  ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },

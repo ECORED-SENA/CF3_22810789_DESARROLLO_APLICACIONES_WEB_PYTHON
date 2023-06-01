@@ -48,32 +48,59 @@
               br
               span.color-primario Es importante revisar cada uno de estos para realizarlo de forma correcta:
           .col-lg-2.col-3: img(src='@/assets/curso/temas/tema1/5.svg', alt='')
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4").slyderf-icon
-        .tarjeta.p-4.bg-card-1
+      .d-lg-none.d-block
+        .tarjeta.p-4.bg-card-1.mb-4
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/tema1/6.svg', alt='')
           p.text-center Comienza con la creación de un diagrama jerárquico para establecer el orden y la importancia de la información.
-        .tarjeta.p-4.bg-card-1
+        .tarjeta.p-4.bg-card-1.mb-4
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/tema1/7.svg', alt='')
           p.text-center Se establece cuáles y el número de páginas que se van a desplegar en las diferentes secciones del sitio web.
-        .tarjeta.p-4.bg-card-1
+        .tarjeta.p-4.bg-card-1.mb-4
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/tema1/8.svg', alt='')
           p.text-center Luego, incluye ramificaciones hacia secciones secundarias que se desplegarán de las principales.
-        .tarjeta.p-4.bg-card-1
+        .tarjeta.p-4.bg-card-1.mb-4
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/tema1/9.svg', alt='')
           p.text-center Se revisa que en el diseño se hayan incluido diferentes categorías, como también todo el contenido que se necesita mostrar.
-        .tarjeta.p-4.bg-card-1
+        .tarjeta.p-4.bg-card-1.mb-4
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/tema1/10.svg', alt='')
           p.text-center Finalmente, se comparte y explica el mapa de navegación a otras personas para identificar si es entendible y amigable de la forma en la que se presenta la información.
+      .d-none.d-lg-block
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4").slyderf-icon
+          .tarjeta.p-4.bg-card-1
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/temas/tema1/6.svg', alt='')
+            p.text-center Comienza con la creación de un diagrama jerárquico para establecer el orden y la importancia de la información.
+          .tarjeta.p-4.bg-card-1
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/temas/tema1/7.svg', alt='')
+            p.text-center Se establece cuáles y el número de páginas que se van a desplegar en las diferentes secciones del sitio web.
+          .tarjeta.p-4.bg-card-1
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/temas/tema1/8.svg', alt='')
+            p.text-center Luego, incluye ramificaciones hacia secciones secundarias que se desplegarán de las principales.
+          .tarjeta.p-4.bg-card-1
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/temas/tema1/9.svg', alt='')
+            p.text-center Se revisa que en el diseño se hayan incluido diferentes categorías, como también todo el contenido que se necesita mostrar.
+          .tarjeta.p-4.bg-card-1
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/temas/tema1/10.svg', alt='')
+            p.text-center Finalmente, se comparte y explica el mapa de navegación a otras personas para identificar si es entendible y amigable de la forma en la que se presenta la información.
     p.mb-5(data-aos='fade-right') Estos consejos permitirán realizar un diseño de mapa de navegación de manera correcta teniendo los propósitos y lineamientos necesarios para realizar este tipo de procesos que son requeridos por los sistemas de información, dando como prioridad a aquellos que utilizan interfaces gráficas orientadas a la web y dispositivos móviles; es importante también tener en cuenta que cada una de las aplicaciones informáticas deben estar inmensamente incluidas dentro de todos estos procesos en particular.
     .subtitulo.mb-4(data-aos='fade-right')
       h3 Tipos de mapa de navegación

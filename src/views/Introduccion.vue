@@ -22,7 +22,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/qqfAuQKd2Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption.mt-3 Video. Interfaces y mapa de navegación video
+      figcaption.mt-3 Video. Interfaces y mapa de navegación 
 
     
 </template>

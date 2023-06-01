@@ -14,7 +14,7 @@
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')
                 .col-lg-10
                   p.text-white El lenguaje HTML o también llamado por sus siglas #[span.color-acento-botones Lenguaje de Marcado de Hipertexto] es una serie de códigos utilizados para crear la estructura de las páginas o sitios web que se visitan a diario en Internet. Es importante tener en cuenta que este lenguaje lleva muchos años en el mercado y desde siempre ha sido el referente utilizado para realizar este tipo de procesos.
-          p #[span.color-secundario HTML] es un lenguaje que se ha convertido en el estándar utilizado por todos los navegadores de Internet para realizar el proceso de interpretación y visualización de los sitios web a nivel mundial. #[span.color-primario Tiene una presencia e importancia en los procesos de desarrollo y construcción que no se puede pensar en su despliegue sin su uso e implementación, a pesar de que han pasado muchos años.]
+          p #[span.color-secundario HTML] es un lenguaje que se ha convertido en el estándar utilizado por todos los navegadores de Internet para realizar el proceso de interpretación y visualización de los sitios web a nivel mundial. #[span.color-primario Tiene una presencia e importancia en los procesos de desarrollo y construcción que no se puede pensar en su despliegue sin su uso e implementación.]
             br
             br
             |A pesar de que han pasado muchos años sigue predominando el uso de este lenguaje para realizar este proceso; ahora bien, este lenguaje tiene algo particular y es la adaptación con diferentes #[em frameworks] para mejorar no solo la apariencia de las aplicaciones sino también su adaptabilidad a las necesidades de los usuarios.
@@ -87,19 +87,19 @@
               p Este elemento encierra todo el contenido de la página entera y a veces, se le conoce como el elemento raíz (#[em root element]).
             div(numero="3" titulo="&lt;head &gt")
               p Este elemento actúa como un contenedor de todo aquello que se quiere incluir en la página HTML que no es contenido visible por los visitantes. 
-              br
-              br
-              |Incluye cosas como palabras clave #[em (keywords)], una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc
+                br
+                br
+                |Incluye cosas como palabras clave #[em (keywords)], una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc
             div(numero="4" titulo="&ltmeta charset= &quot;utf-8&quot&gt")
               p Este elemento establece el juego de caracteres que el documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. 
-              br
-              br
-              |Básicamente, puede manejar cualquier contenido de texto que se pueda incluir. 
-              br
-              br
-              |No hay razón para no establecerlo, y puede evitar problemas en el futuro.
+                br
+                br
+                |Básicamente, puede manejar cualquier contenido de texto que se pueda incluir. 
+                br
+                br
+                |No hay razón para no establecerlo, y puede evitar problemas en el futuro.
             div(numero="5" titulo="&lt;title&gt")
-              p Establece el título de la página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la esta es cargada. Se usa para describir la página cuando es añadida a los marcadores o como favorita.
+              p Establece el título de la página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando esta es cargada. Se usa para describir la página cuando es añadida a los marcadores o como favorita.
             div(numero="6" titulo="&lt;body&gt")
               p Encierra todo el contenido que se desea mostrar a los usuarios web que visiten la página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/7.svg', alt='')
@@ -127,7 +127,7 @@
               | En la codificación, también se incluye un atributo alt (alternative), el cual contiene un texto que debería describir la imagen y que podría ser accedido por usuarios que no pueden ver la imagen.
               br
               br
-              | Para este caso se debe agregar la imagen que se visualizará en la página en la carpeta quese creó del sitio web, a través de Visual Studio Code.
+              | Para este caso se debe agregar la imagen que se visualizará en la página en la carpeta que se creó del sitio web, a través de Visual Studio Code.
               br
               br
               | Luego sí se procede a ejecutar el sitio dando doble clic al archivo index (que es el archivo HTML) para poder visualizar el resultado, como se ve en la imagen.
