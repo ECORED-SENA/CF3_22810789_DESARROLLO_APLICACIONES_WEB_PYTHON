@@ -84,7 +84,7 @@
       p.mb-5(data-aos='fade-right') Veamos a continuación, la aplicación del CSS a través de un video: 
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/xJpdYNmohlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/_qlj_FyUR-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.mt-3 Video. Aplicando el CSS
       .row.justify-content-center.mb-5
         .col-lg-2.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/11.svg', alt='')

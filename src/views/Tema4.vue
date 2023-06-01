@@ -14,10 +14,10 @@
                 .col-lg-2.col-3: img(src='@/assets/curso/temas/atencion.svg', alt='')
                 .col-lg-10
                   p.text-white El lenguaje HTML o también llamado por sus siglas #[span.color-acento-botones Lenguaje de Marcado de Hipertexto] es una serie de códigos utilizados para crear la estructura de las páginas o sitios web que se visitan a diario en Internet. Es importante tener en cuenta que este lenguaje lleva muchos años en el mercado y desde siempre ha sido el referente utilizado para realizar este tipo de procesos.
-          p #[span.color-secundario HTML] es un lenguaje que se ha convertido en el estándar utilizado por todos los navegadores de Internet para realizar el proceso de interpretación y visualización de los sitios web a nivel mundial. #[span.color-primario Tiene una presencia e importancia en los procesos de desarrollo y construcción que no se puede pensar en su despliegue sin su uso e implementación.]
+          p #[span.color-secundario HTML] es un lenguaje que se ha convertido en el estándar utilizado por todos los navegadores de Internet para realizar el proceso de interpretación y visualización de los sitios web a nivel mundial. #[span.color-primario Tiene una presencia e importancia en los procesos de desarrollo y construcción que no se puede pensar en su despliegue sin su uso e implementación, a pesar de que han pasado muchos años.]
             br
             br
-            |A pesar de que han pasado muchos años sigue predominando el uso de este lenguaje para realizar este proceso; ahora bien, este lenguaje tiene algo particular y es la adaptación con diferentes #[em frameworks] para mejorar no solo la apariencia de las aplicaciones sino también su adaptabilidad a las necesidades de los usuarios.
+            |Este lenguaje tiene algo particular y es la adaptación con diferentes #[em frameworks] para mejorar no solo la apariencia de las aplicaciones sino también su adaptabilidad a las necesidades de los usuarios.
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/1.png', alt='')
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
         .bloque-texto-g__img(

@@ -27,12 +27,12 @@
             br
             span.fst-italic Ejemplo de mapa de navegación
           img(src='@/assets/curso/temas/tema1/2.svg', alt='La imagen muestra un ejemplo de un Mapa de Navegación. En el diagrama, se representan las diferentes páginas o secciones de un sitio web o una aplicación. Se visualizan las conexiones y rutas que los usuarios pueden seguir para navegar entre las distintas páginas.')
-      p.mb-5(data-aos='fade-right') Como podemos observar en la imagen el mapa de navegación muestra la forma en la que se encuentran distribuidas cada una de las partes del sistema, esto permitirá que la persona que utiliza el sistema pueda realizar la exploración del sitio de una manera adecuada y conociendo cada una de las características del sistema.
+      p.mb-5(data-aos='fade-right') Como se puede observar en la imagen el mapa de navegación muestra la forma en la que se encuentran distribuidas cada una de las partes del sistema. Esto permitirá que la persona que lo utiliza pueda realizar la exploración del sitio de una manera adecuada y conociendo cada una de las características del mismo.
       .tarjeta(style="background-color: #c2dcf5 ").p-4.mb-4
         .row.justify-content-center.align-items-center
           .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/3.svg', alt='')
           .col-lg-11: p.mb-0 Dentro de la documentación del usuario se explica qué contiene cada parte del sistema, a qué lugar lo llevará y qué información debe este suministrar para realizar las operaciones que se requieren dentro del mismo. Esto no solo ayuda a la operación del sistema, sino que también le permite al usuario ser mucho más preciso y realizar un aprovechamiento del sistema de una manera adecuada.
-      p.mb-5(data-aos='fade-right') Los mapas de navegación también surgen de los procesos de documentación de sistemas de información, esto está orientado en gran parte a las aplicaciones web y móviles las cuales en la mayoría de los casos pueden llegar a ser un poco más complejas de operar para los usuarios y los mapas de navegación se convierten en un insumo valioso para mitigar estos inconvenientes.
+      p.mb-5(data-aos='fade-right') Los mapas de navegación también surgen de los procesos de documentación de sistemas de información. Esto está orientado en gran parte a las aplicaciones web y móviles, las cuales en la mayoría de los casos pueden llegar a ser un poco más complejas de operar para los usuarios; Los mapas de navegación, entonces, se convierten en un insumo valioso para mitigar estos inconvenientes.
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3
           p.mb-3 El mapa de navegación #[span.color-primario es un esquema, que se puede pensar como un árbol jerárquico, que representa la arquitectura de las páginas de un sitio web.]
