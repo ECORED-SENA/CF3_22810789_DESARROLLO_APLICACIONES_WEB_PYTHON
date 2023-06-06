@@ -36,7 +36,7 @@
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3
           p.mb-3 El mapa de navegación #[span.color-primario es un esquema, que se puede pensar como un árbol jerárquico, que representa la arquitectura de las páginas de un sitio web.]
-          .tarjeta.p-4.mb-3(style="background-color: #d5cef8 ") 
+          .tarjeta.p-4.mb-3(style="background-color: #d5cef8 ")
             p.mb-0 Esta representación gráfica puede ser como un mapa conceptual, para visualizar y entender el recorrido del visitante; es decir, su navegación y cómo este llega a lo que está buscando. También, en este se organiza la distribución y la jerarquía del contenido.
           p Las ventajas de tener un mapa de navegación es que permite lograr diferenciarse de los demás sistemas al tener un sitio amigable y que entiende al usuario, contar con un fácil acceso al contenido y con ello, la generación de más conversiones y de satisfacción con el servicio que se provee en un sitio web, como lo puede ser en algunos casos el informativo.
         .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/4.png', alt='')
@@ -122,7 +122,7 @@
       .row(numero="2" titulo="Estructura jerárquica")
         .row.justify-content-center.mb-5
           .col-lg-4
-            p Esta estructura pone en un rango superior la página de inicio y en un nivel inferior de ella, las diferentes categorías y subcategorías del sitio web. 
+            p Esta estructura pone en un rango superior la página de inicio y en un nivel inferior de ella, las diferentes categorías y subcategorías del sitio web.
           .col-lg-8
             img(src='@/assets/curso/temas/tema1/13.svg', alt='La imagen muestra un ejemplo de una estructura jerárquica. En el diagrama, se pueden identificar diferentes niveles o capas de elementos organizados de manera jerárquica. En la parte superior se encuentra un elemento principal o raíz, del cual se desprenden ramificaciones o subelementos en niveles inferiores. Cada nivel representa una relación de subordinación, donde los elementos inferiores están vinculados y dependen del elemento superior.')
       .row(numero="3" titulo="Estructura compuesta")
@@ -136,24 +136,17 @@
         p Existen, entonces, varias formas de representación de los mapas de navegación, los cuales pueden ser utilizados para brindar al usuario de la aplicación una guía práctica de las funciones y procesos que están incluidos en el sistema y de esta manera realizar un correcto uso de la misma.
         .tarjeta.color-secundario.p-3.mb-lg-0.mb-3
           p.mb-0.text-white Hasta aquí se ha visto cómo elaborar un correcto prototipo de navegación permitirá hacer un uso correcto dentro de un sistema de información.
-      .col-lg-2.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/16.svg', alt='') 
-        
-
-
-
-
-
-
-
+      .col-lg-2.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/16.svg', alt='')
 
 </template>
 
 <script>
+import SlyderF from '../components/SlyderF.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { SlyderF },
   data: () => ({
-    // variables de vue
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -166,4 +159,9 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.slyder-f
+  .slyder-f__main
+    .horizontal-scroll__wrapper
+      padding-top: 4rem
+</style>
