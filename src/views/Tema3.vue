@@ -23,7 +23,7 @@
       p.mb-5(data-aos='fade-right') A continuación, veremos #[span.color-primario cómo crear o conceptualizar un #[em mockup (Wireframe)] de un aplicativo a desarrollar como parte del proceso de negociación-aprobación entre la persona encargada del desarrollo y el cliente:]
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/lUk09iM8NUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/94UTvXQqRfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.mt-3 Video. ¿Cómo realizar un #[em wireframe]?
     p.mb-5(data-aos='fade-right') Como pudimos apreciar a través del video sobre la construcción de un #[em wireframe], el mismo está listo para ser validado por el usuario. 
     .tarjeta.bg-tema3-card.p-5.mb-4

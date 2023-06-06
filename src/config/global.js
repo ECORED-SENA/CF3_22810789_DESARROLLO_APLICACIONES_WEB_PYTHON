@@ -104,11 +104,11 @@ export default {
         titulo: 'Descargar PDF',
         download: 'downloads/22810789_CF03_DU.pdf',
       },
-      // {
-      //   icono: 'fas fa-download',
-      //   titulo: 'Descargar material',
-      //   download: 'downloads/material.zip',
-      // },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -208,13 +208,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Maria Camila García Santamaria',
-          cargo: 'Líder del equipo',
+          nombre: 'Claudia Patricia Aristizábal',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Asesor metodológico y pedagógico  ',
+          cargo: 'Responsable de Línea de Producción ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
@@ -268,12 +268,6 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
           nombre: 'Wilson Andrés Arenales Cáceres ',
           cargo: 'Storyboard e ilustración ',
           centro:
@@ -302,6 +296,12 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
         {
           nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validador de Recursos Educativos Digitales ',
