@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="1961" viewBox="0 0 1328 1961">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_372986" data-name="Rectángulo 372986" width="1328" height="1737.16" fill="#f4f2fd" opacity="0.3"/>
+    </clipPath>
+  </defs>
+  <g id="bg-tema1" transform="translate(-136 -460)">
+    <g id="Grupo_1023321" data-name="Grupo 1023321" transform="translate(0 -242.082)" opacity="0.76">
+      <path id="Trazado_741205" data-name="Trazado 741205" d="M0,0H1328V1737.455H0Z" transform="translate(136 781)" fill="#e4ebf2"/>
+      <path id="Rectangle_652" data-name="Rectangle 652" d="M1307.087,1199.786H20.913C9.363,1199.786,0,1179.891,0,1155.349V44.437C0,19.895,9.363,0,20.913,0H1307.087C1318.637,0,1328,19.895,1328,44.437V1155.349C1328,1179.891,1318.637,1199.786,1307.087,1199.786Z" transform="translate(136 816.117)" fill="none" opacity="0.238"/>
+      <g id="Enmascarar_grupo_952169" data-name="Enmascarar grupo 952169" transform="translate(136 781)" clip-path="url(#clip-path)">
+        <path id="Trazado_741204" data-name="Trazado 741204" d="M1577.241,1019.6l10.989-573.687L1697.2,143.874,1475.9,10.171c-5.208,7.7-10.252,15.759-15.658,23.03-40.495,54.457-80.065,112.032-121.811,162.413-82.764,99.877-157.3,139.788-220.42,119.272a515.159,515.159,0,0,1-63.971-25.535c-38.243-18.389-81.86-21.447-136.157,3.371C883.9,308.252,850.646,335.277,816.9,378.412c-50.515,64.563-93,139.557-137.931,211.5-23.809,38.125-47.918,76.235-73.02,112.472-51.623,74.523-103.162,119.158-156.312,132.318-57.172,14.153-99.076,1.916-116.009-61.75-14.131-53.125-28.687-105.968-46.792-154.176-29.3-78.033-90.716-84.865-177.189-29.306-30.956,19.886-62.767,47.065-94.19,70.914l-6.081,686Z" transform="matrix(0.891, -0.454, 0.454, 0.891, -54.45, 757.064)" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_375485" data-name="Rectángulo 375485" width="1328" height="1961" transform="translate(136 460)" fill="none"/>
+  </g>
+</svg>

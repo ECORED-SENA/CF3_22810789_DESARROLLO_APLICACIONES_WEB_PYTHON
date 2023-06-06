@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.073" height="60.321" viewBox="0 0 64.073 60.321">
+  <g id="_15" data-name="15" transform="translate(-520.5 -3360.786)">
+    <g id="encabezados" transform="translate(520.064 3359.336)">
+      <g id="BG" transform="translate(0.436 1.45)">
+        <g id="Grupo_1024247" data-name="Grupo 1024247">
+          <path id="Trazado_743782" data-name="Trazado 743782" d="M14.1,8.921C10.89,20.806,2.526,27.3.977,33.03S-.53,51.676,25.817,58.8,60.4,50.787,62.107,44.486c7.976-29.5-42.313-56.614-48-35.566Z" transform="translate(-0.436 -1.45)" fill="#9d8fe3"/>
+        </g>
+      </g>
+      <g id="Color" transform="translate(5.325 18.962)">
+        <g id="Grupo_1024251" data-name="Grupo 1024251" transform="translate(-4 31.804)">
+          <g id="Grupo_1024248" data-name="Grupo 1024248" transform="translate(0.311 0)">
+            <path id="Trazado_743783" data-name="Trazado 743783" d="M0,0H1.78V3.56H0Z" transform="translate(0 1.258) rotate(-45)" fill="#221b6b"/>
+          </g>
+          <g id="Grupo_1024249" data-name="Grupo 1024249" transform="translate(7.552 7.23)">
+            <path id="Trazado_743784" data-name="Trazado 743784" d="M0,0H1.78V3.56H0Z" transform="translate(0 1.258) rotate(-45)" fill="#221b6b"/>
+          </g>
+          <g id="Grupo_1024250" data-name="Grupo 1024250" transform="translate(0 7.23)">
+            <path id="Trazado_743785" data-name="Trazado 743785" d="M0,0H3.56V1.78H0Z" transform="translate(0 2.517) rotate(-45)" fill="#221b6b"/>
+          </g>
+        </g>
+        <g id="Grupo_1024252" data-name="Grupo 1024252" transform="translate(53.844 -7)">
+          <path id="Trazado_743786" data-name="Trazado 743786" d="M32.17,16.628a2.67,2.67,0,1,1,2.67-2.67A2.673,2.673,0,0,1,32.17,16.628Zm0-3.56a.89.89,0,1,0,.89.89A.891.891,0,0,0,32.17,13.068Z" transform="translate(-29.5 -11.288)" fill="#221b6b"/>
+        </g>
+      </g>
+    </g>
+    <g id="_x34_65_x2C__Communication_x2C__Header_x2C__Hero_x2C__Interface_x2C__User" transform="translate(517.4 3339.516)">
+      <g id="Grupo_1024246" data-name="Grupo 1024246" transform="translate(10.1 26.1)">
+        <path id="Trazado_743774" data-name="Trazado 743774" d="M58.611,26.1H11.133A1.036,1.036,0,0,0,10.1,27.133V74.621a1.036,1.036,0,0,0,1.033,1.033H58.611a1.036,1.036,0,0,0,1.033-1.033V27.133A1.029,1.029,0,0,0,58.611,26.1ZM12.165,28.165H57.579v8.261H12.165Zm0,45.413v-35.1H57.579v35.1Z" transform="translate(-10.1 -26.1)" fill="#12263f"/>
+        <path id="Trazado_743775" data-name="Trazado 743775" d="M260.642,76.1H241.033a1.033,1.033,0,1,0,0,2.065h19.609a1.033,1.033,0,1,0,0-2.065Z" transform="translate(-216.261 -70.937)" fill="#12263f"/>
+        <path id="Trazado_743776" data-name="Trazado 743776" d="M52.165,76.1H51.133a1.033,1.033,0,1,0,0,2.065h1.033a1.033,1.033,0,1,0,0-2.065Z" transform="translate(-45.97 -70.937)" fill="#12263f"/>
+        <path id="Trazado_743777" data-name="Trazado 743777" d="M102.065,76.1h-1.033a1.033,1.033,0,1,0,0,2.065h1.033a1.033,1.033,0,1,0,0-2.065Z" transform="translate(-90.717 -70.937)" fill="#12263f"/>
+        <path id="Trazado_743778" data-name="Trazado 743778" d="M98.285,176H61.133a1.036,1.036,0,0,0-1.033,1.033v6.2a1.036,1.036,0,0,0,1.033,1.033H98.3a1.036,1.036,0,0,0,1.033-1.033v-6.2A1.045,1.045,0,0,0,98.285,176Zm-1.033,6.2H62.165v-4.13h35.1Z" transform="translate(-54.937 -160.521)" fill="#12263f"/>
+        <path id="Trazado_743779" data-name="Trazado 743779" d="M98.285,376H61.133a1.036,1.036,0,0,0-1.033,1.033v6.2a1.036,1.036,0,0,0,1.033,1.033H98.3a1.036,1.036,0,0,0,1.033-1.033v-6.2A1.038,1.038,0,0,0,98.285,376Zm-1.033,6.185H62.165v-4.13h35.1Z" transform="translate(-54.937 -339.87)" fill="#12263f"/>
+        <path id="Trazado_743780" data-name="Trazado 743780" d="M61.133,288.065H82.807a1.033,1.033,0,0,0,0-2.065H61.133a1.033,1.033,0,0,0,0,2.065Z" transform="translate(-54.937 -259.163)" fill="#12263f"/>
+        <path id="Trazado_743781" data-name="Trazado 743781" d="M61.133,328.065H91.067a1.033,1.033,0,0,0,0-2.065H61.133a1.033,1.033,0,0,0,0,2.065Z" transform="translate(-54.937 -295.033)" fill="#12263f"/>
+      </g>
+    </g>
+  </g>
+</svg>

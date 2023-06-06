@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="2749" viewBox="0 0 1328 2749">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Trazado_744403" data-name="Trazado 744403" d="M0,0H1328V1964H0V0Z" fill="#362b9e" opacity="0.28"/>
+    </clipPath>
+  </defs>
+  <g id="bg-tema4" transform="translate(-136.5 -366)">
+    <g id="Grupo_1024693" data-name="Grupo 1024693" transform="translate(-9167.5 11700)">
+      <g id="Grupo_1024330" data-name="Grupo 1024330" transform="translate(9304 -11227)">
+        <path id="Trazado_744402" data-name="Trazado 744402" d="M0,0H1328V1964H0V0Z" transform="translate(0 0)" fill="#e4ebf2"/>
+        <rect id="Rectángulo_374519" data-name="Rectángulo 374519" width="1328" height="86" transform="translate(0 1879)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Enmascarar_grupo_952268" data-name="Enmascarar grupo 952268" transform="translate(9304 -11227)" clip-path="url(#clip-path)">
+        <path id="Trazado_741204" data-name="Trazado 741204" d="M1655.883,0,1546.778,582.63l46.99,275.417L1341.773,1061.8c-3.658-6.28-7.073-12.984-11.021-18.769-29.57-43.329-57.551-90.122-89.241-128.907-62.83-76.888-129.9-95.024-198.08-54.9q-35.595,20.944-70.093,45.5C930.78,935.119,886,951.485,836.247,942.621c-31.139-5.546-59.125-23.054-84.242-56.866C714.411,835.146,687.13,771.446,656.736,711.6c-16.105-31.713-32.519-63.319-50.328-92.711-36.627-60.445-79.433-90.389-130.465-87.694-54.9,2.9-99.868,28.123-130.347,98.292-25.434,58.552-51.241,116.945-79.666,171.682-46.011,88.6-109.594,114.224-185.465,83.729C53.3,873.985,26.8,855.882,0,841.063L137.61,142.227Z" transform="matrix(-0.891, -0.454, 0.454, -0.891, 992.5, 1901.74)" fill="none" opacity="0.5"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_375486" data-name="Rectángulo 375486" width="1328" height="2749" transform="translate(136.5 366)" fill="none"/>
+  </g>
+</svg>
